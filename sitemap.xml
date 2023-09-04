@@ -30,9 +30,9 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Cultivar</group>
-            <category>Red19;Green14</category>
-            <subcategory></subcategory>
+            <group>Cultivar;Business</group>
+            <category>Red19;Green14;License;Performance</category>
+            <subcategory>GPS;Monitoring</subcategory>
             <title></title>
             <description></description>
             <season></season>
@@ -253,7 +253,8 @@
 
 
     <url>
-        <loc>https://www.zespri.com/en-US/blogdetail/add-excitement-to-snacktime-with-edible-kiwi-flowers</loc>
+        <loc>
+            https://www.zespri.com/en-US/blogdetail/add-excitement-to-snacktime-with-edible-kiwi-flowers</loc>
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
@@ -298,7 +299,8 @@
 
 
     <url>
-        <loc>https://www.zespri.com/en-US/recipedetail/protein-packed-salmon-power-bowl-with-sungold-kiwifruit-ponzu-sauce</loc>
+        <loc>
+            https://www.zespri.com/en-US/recipedetail/protein-packed-salmon-power-bowl-with-sungold-kiwifruit-ponzu-sauce</loc>
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
@@ -328,7 +330,8 @@
 
 
     <url>
-        <loc>https://www.zespri.com/en-US/recipedetail/vietnamese-spring-rolls-with-kiwifruit-nuoc-cham</loc>
+        <loc>
+            https://www.zespri.com/en-US/recipedetail/vietnamese-spring-rolls-with-kiwifruit-nuoc-cham</loc>
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
@@ -448,7 +451,8 @@
 
 
     <url>
-        <loc>https://www.zespri.com/en-US/recipedetail/bbq-jackfruit-squash-bowls-creamy-kiwi-lime-sauce</loc>
+        <loc>
+            https://www.zespri.com/en-US/recipedetail/bbq-jackfruit-squash-bowls-creamy-kiwi-lime-sauce</loc>
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
