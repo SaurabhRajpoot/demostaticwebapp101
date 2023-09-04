@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <script> let decodeRaw = function (raw) { let rawString = ''; if (raw && raw.length) { try { let
-        totalLen = 0; let aUint8 = raw.map(r => { let a = new Uint8Array(r.bytes); totalLen +=
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:coveo="https://www.coveo.com/en/company/about-us">
+    <script> let decodeRaw = function (raw) { let rawString = ''; if (raw &amp; raw.length) { try {
+        let totalLen = 0; let aUint8 = raw.map(r => { let a = new Uint8Array(r.bytes); totalLen +=
         a.length; return a; }); let c = new (aUint8[0].constructor)(totalLen); let len = 0;
         aUint8.forEach(a => { c.set(a, len); len += a.length; }); rawString =
         decodeURIComponent(String.fromCharCode.apply(null, c)); } catch (e) {
