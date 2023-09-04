@@ -1,7 +1,117 @@
 <!DOCTYPE html>
 <html>
-  <head> </head>
+  <head>
+    <style>
+      /* atomic-search-box::part(wrapper) {
+        background-color: green;
+        color: red;
+      }
+      atomic-search-box::part(submit-icon) {
+        color: red;
+      }
+
+      atomic-search-box::part(submit-button) {
+        background-color: pink;
+      }
+
+      atomic-search-box::part(suggestion-divider) {
+        background-color: red;
+        color: yellowgreen;
+      } */
+
+      /* atomic-search-box::placeholder {
+        background-color: red;
+      } */
+    </style>
+    <script
+      type="module"
+      src="https://static.cloud.coveo.com/atomic/v2/atomic.esm.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://static.cloud.coveo.com/atomic/v2/themes/coveo.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      (async () => {
+        await customElements.whenDefined("atomic-search-interface");
+        const searchInterface = document.querySelector(
+          "#canopy-standalone-search"
+        );
+
+        await searchInterface.initialize({
+          accessToken:
+            "eyJhbGciOiJIUzI1NiJ9.eyJ2OCI6dHJ1ZSwidG9rZW5JZCI6Inh6N256aXF6Zjd3Zjd3a3N5dDM0ZTJzcHh5Iiwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJ1c2VyRGlzcGxheU5hbWUiOiJTYXVyYWJoIEt1bWFyIiwicGlwZWxpbmUiOiJ6ZXNwcmktcG9jLXBpcGVsaW5lIiwidXNlckdyb3VwcyI6WyJmdWxsIl0sInNlYXJjaEh1YiI6Inplc3ByaS1wb2Mtc2VhcmNoIiwib3JnYW5pemF0aW9uIjoiemVzcHJpaW50ZXJuYXRpb25hbGx0ZG5vbnByb2R1Y3Rpb24xb2N0ZDRmMHEiLCJ1c2VySWRzIjpbeyJuYW1lIjoic2F1cmFiaC5rdW1hckB6ZXNwcmkuY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciIsImluZm9zIjp7fSwidHlwZSI6IlVzZXIiLCJhdXRoQ29va2llIjoiIn1dLCJleHAiOjE2OTM0NTg2OTcsImlhdCI6MTY5MzM3MjI5N30.cU3hhNs05zknhM6E1DpuH-Qr-agk5f99cNL0mUL9FRw",
+          organizationId: "zespriinternationalltdnonproduction1octd4f0q",
+          organizationEndpoints: await searchInterface.getOrganizationEndpoints(
+            "zespriinternationalltdnonproduction1octd4f0q"
+          ),
+        });
+      })();
+    </script>
+
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .hero-image {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("images/zespriHomePage.jpg");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+
+      .hero-text button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 10px 25px;
+        color: black;
+        background-color: #ddd;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .hero-text button:hover {
+        background-color: #555;
+        color: white;
+      }
+    </style>
+  </head>
   <body>
-    <h1>This is a tets Page</h1>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>HOME PAGE : SEARCH OUR LIBRARY</h1>
+        <div id="globalSearchBox">
+          <atomic-search-interface id="canopy-standalone-search">
+            <atomic-search-box redirection-url="/search.html#f-zespri_poc_item_status=liveitems">
+              <atomic-search-box-query-suggestions></atomic-search-box-query-suggestions>
+            </atomic-search-box>
+          </atomic-search-interface>
+        </div>
+      </div>
+    </div>
+    <!-- <atomic-search-interface id="canopy-home-page">
+      <atomic-search-box redirection-url="/search.html"> </atomic-search-box>
+    </atomic-search-interface> -->
   </body>
 </html>

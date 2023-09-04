@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      type="module"
+      src="https://static.cloud.coveo.com/atomic/v2/atomic.esm.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://static.cloud.coveo.com/atomic/v2/themes/coveo.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      (async () => {
+        await customElements.whenDefined("atomic-search-interface");
+        const searchInterface = document.querySelector("#canopy-search-page");
+        await searchInterface.initialize({
+          accessToken:
+            "eyJhbGciOiJIUzI1NiJ9.eyJwaXBlbGluZSI6Inplc3ByaS1wb2MtcGlwZWxpbmUtMSIsInNlYXJjaEh1YiI6Inplc3ByaS1wb2Mtc2VhcmNoIiwidjgiOnRydWUsInRva2VuSWQiOiJ1dmszaXJpdWdycTdtN3lxMmlndW14Mm12eSIsIm9yZ2FuaXphdGlvbiI6Inplc3ByaWludGVybmF0aW9uYWxsdGRub25wcm9kdWN0aW9uMW9jdGQ0ZjBxIiwidXNlcklkcyI6W3sidHlwZSI6IlVzZXIiLCJuYW1lIjoic2F1cmFiaC5rdW1hckB6ZXNwcmkuY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciJ9XSwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJ1c2VyRGlzcGxheU5hbWUiOiJTYXVyYWJoIEt1bWFyIiwiZXhwIjoxNjkzOTAxMzMzLCJpYXQiOjE2OTM4MTQ5MzN9.IlWrUz8hRmd1R5t2l4TdR_TE86JYbZUBCP-1SwnRQgw",
+          organizationId: "zespriinternationalltdnonproduction1octd4f0q",
+          organizationEndpoints: await searchInterface.getOrganizationEndpoints(
+            "zespriinternationalltdnonproduction1octd4f0q"
+          ),
+        });
+        searchInterface.executeFirstSearch();
+      })();
+    </script>
+
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .hero-image {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("images/ZespriSearchPage.jpeg");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+
+      .hero-text button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 10px 25px;
+        color: black;
+        background-color: #ddd;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .hero-text button:hover {
+        background-color: #555;
+        color: white;
+      }
+      .tab-container {
+        a {
+          color: var(--atomic-primary);
+          text-decoration: none;
+          cursor: pointer;
+          height: 3.25rem;
+          display: inline-block;
+          font-size: var(--atomic-text-lg);
+          padding: 0 1.25rem 0.125rem;
+          text-transform: uppercase;
+          vertical-align: middle;
+          white-space: normal;
+          font-family: var(--atomic-font-family);
+        }
+
+        a.selected {
+          border-bottom: 0.125rem solid var(--atomic-on-background);
+          padding-bottom: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <atomic-search-interface
+      id="canopy-search-page"
+      fields-to-include='["zespri_poc_result_contenttype3","zespri_poc_result_image", "zespri_poc_item_season","zespri_poc_item_status","zespri_poc_item_type","filename","zespri_poc_result_contenttype3"]'
+    >
+      <atomic-search-layout>
+        <!-- all Atomic components will go in here -->
+
+        <!-- BEGIN : Atomic Search box component -->
+        <atomic-layout-section section="search">
+          <atomic-search-box></atomic-search-box>
+        </atomic-layout-section>
+        <!-- END : Atomic Search box component -->
+
+        <!-- BEGIN : Atomic Facets Section -->
+        <atomic-layout-section section="facets">
+          <!-- <atomic-facet-manager> -->
+          <atomic-facet field="zespri_poc_group" label="Group"></atomic-facet>
+
+          <atomic-facet
+            field="zespri_poc_category"
+            label="Category"
+          ></atomic-facet>
+
+          <atomic-facet
+            field="zespri_poc_subcategory"
+            label="Sub Category"
+          ></atomic-facet>
+
+          <!-- <atomic-category-facet
+            base-path=""
+            field="zespri_poc_result_contenttype"
+            label="Content Type"
+            delimiting-character="|"
+          ></atomic-category-facet> -->
+
+          <!-- <atomic-category-facet
+            base-path=""
+            field="zespri_poc_result_contenttype1"
+            label="Content Type1"
+          ></atomic-category-facet> -->
+
+          <atomic-category-facet
+            base-path=""
+            field="zespri_poc_result_contenttype3"
+            label="Content Type"
+            delimiting-character="|"
+            displayValuesAs="checkbox"
+          ></atomic-category-facet>
+
+          <!-- </atomic-facet-manager> -->
+        </atomic-layout-section>
+        <!-- END : Atomic Facets Section -->
+
+        <!-- BEGIN : Atomic Search Main Section -->
+        <atomic-layout-section section="main">
+          <!-- BEGIN : refine toggle component: it only renders on screens with resolutions below 1024px. -->
+          <atomic-layout-section section="status">
+            <!-- <atomic-refine-toggle></atomic-refine-toggle> -->
+            <atomic-breadbox></atomic-breadbox>
+            <atomic-query-summary></atomic-query-summary>
+            <atomic-refine-toggle></atomic-refine-toggle>
+            <atomic-sort-dropdown>
+              <atomic-sort-expression
+                label="Relevance"
+                expression="relevancy descending"
+              >
+              </atomic-sort-expression>
+              <atomic-sort-expression label="Date" expression="date descending">
+              </atomic-sort-expression>
+            </atomic-sort-dropdown>
+            <atomic-did-you-mean></atomic-did-you-mean>
+          </atomic-layout-section>
+          <!-- END : refine toggle component -->
+
+          <!-- BEGIN : Atomic Search Main-> Results Section -->
+          <atomic-layout-section section="results">
+            <atomic-result-list
+              display="list"
+              image-size="icon"
+              density="comfortable"
+            >
+              <atomic-result-template must-match-filetype="html">
+                <template>
+                  <style>
+                    atomic-result-section-badges {
+                      display: flex;
+                    }
+
+                    atomic-result-section-title > atomic-quickview {
+                      display: inline-block;
+                    }
+
+                    atomic-result-section-badges > atomic-field-condition {
+                      display: inline-block;
+                      height: 100%;
+                    }
+
+                    #canopy-search-badge-language::part(result-badge-element) {
+                      background-color: red;
+                      color: white;
+                    }
+
+                    #canopy-search-badge-itemtype::part(result-badge-element) {
+                      background-color: orange;
+                      color: green;
+                      font-weight: 900;
+                    }
+
+                    #canopy-search-badge-itemstatus::part(
+                        result-badge-element
+                      ) {
+                      background-color: orange;
+                      color: white;
+                    }
+
+                    #canopy-search-badge-itemstatus::part(
+                        result-badge-element
+                      ) {
+                      background-color: orange;
+                      color: white;
+                    }
+                  </style>
+                  <!-- ** Add the code from the Visual Result Section here ** -->
+                  <atomic-result-section-visual>
+                    <atomic-result-icon></atomic-result-icon>
+                    <!-- <atomic-result-image
+                      field="zespri_poc_result_image"
+                    ></atomic-result-image> -->
+                  </atomic-result-section-visual>
+
+                  <!-- ** Add the code from the Badge Result Section here ** -->
+
+                  <atomic-result-section-badges>
+                    <!-- <atomic-field-condition if-defined="zespri_poc_category">
+                      <atomic-result-badge id="canopy-search-badge-language">
+                        <atomic-result-multi-value-text
+                          field="language"
+                        ></atomic-result-multi-value-text>
+                      </atomic-result-badge>
+                    </atomic-field-condition> -->
+
+                    <atomic-field-condition if-defined="zespri_poc_category">
+                      <atomic-result-badge
+                        id="canopy-search-badge-itemtype"
+                        field="zespri_poc_category"
+                      ></atomic-result-badge>
+                    </atomic-field-condition>
+
+                    <atomic-field-condition if-defined="zespri_poc_item_status">
+                      <atomic-result-badge
+                        id="canopy-search-badge-itemstatus"
+                        field="zespri_poc_item_status"
+                      ></atomic-result-badge>
+                    </atomic-field-condition>
+                  </atomic-result-section-badges>
+
+                  <atomic-result-section-actions>
+                    <atomic-quickview></atomic-quickview>
+                  </atomic-result-section-actions>
+
+                  <!-- ** Add the code from the Title Metadata Result Section here ** -->
+
+                  <!-- ** Add the code from the Bottom Metadata Result Section here ** -->
+
+                  <atomic-result-section-bottom-metadata>
+                    <atomic-result-fields-list>
+                      <atomic-field-condition if-defined="date">
+                        <span class="field-label">Date Published:</span>
+                        <atomic-result-date></atomic-result-date>
+                      </atomic-field-condition>
+                    </atomic-result-fields-list>
+
+                    <atomic-result-fields-list>
+                      <span class="field-label">Content Type:</span>
+                      <atomic-result-text
+                        field="zespri_poc_item_type"
+                      ></atomic-result-text>
+                    </atomic-result-fields-list>
+                  </atomic-result-section-bottom-metadata>
+
+                  <atomic-result-section-title>
+                    <atomic-result-link target="_blank"></atomic-result-link>
+                    <!-- <atomic-quickview></atomic-quickview> -->
+                  </atomic-result-section-title>
+                  <atomic-result-section-excerpt>
+                    <atomic-result-text field="excerpt"></atomic-result-text>
+                  </atomic-result-section-excerpt>
+
+                  <atomic-result-text
+                    field="zespri_poc_result_contenttype3"
+                  ></atomic-result-text>
+
+                  <!-- <atomic-result-section-quickview>
+                    <atomic-quickview></atomic-quickview>
+                  </atomic-result-section-quickview> -->
+                </template>
+              </atomic-result-template>
+
+              <atomic-result-template must-match-filetype="pdf">
+                <template>
+                  <style>
+                    atomic-result-section-badges {
+                      display: flex;
+                    }
+
+                    atomic-result-section-title > atomic-quickview {
+                      display: inline-block;
+                    }
+
+                    atomic-result-section-badges > atomic-field-condition {
+                      display: inline-block;
+                      height: 100%;
+                    }
+
+                    #canopy-search-badge-language::part(result-badge-element) {
+                      background-color: red;
+                      color: white;
+                    }
+
+                    #canopy-search-badge-itemtype::part(result-badge-element) {
+                      background-color: orange;
+                      color: green;
+                      font-weight: 900;
+                    }
+
+                    #canopy-search-badge-itemstatus::part(
+                        result-badge-element
+                      ) {
+                      background-color: orange;
+                      color: white;
+                    }
+
+                    #canopy-search-badge-itemstatus::part(
+                        result-badge-element
+                      ) {
+                      background-color: orange;
+                      color: white;
+                    }
+                  </style>
+                  <!-- ** Add the code from the Visual Result Section here ** -->
+                  <atomic-result-section-visual>
+                    <atomic-result-icon></atomic-result-icon>
+                    <!-- <atomic-result-image
+                      field="zespri_poc_result_image"
+                    ></atomic-result-image> -->
+                  </atomic-result-section-visual>
+
+                  <!-- ** Add the code from the Badge Result Section here ** -->
+
+                  <atomic-result-section-badges>
+                    <atomic-field-condition if-defined="language">
+                      <atomic-result-badge>
+                        <atomic-result-multi-value-text
+                          field="language"
+                        ></atomic-result-multi-value-text>
+                      </atomic-result-badge>
+                    </atomic-field-condition>
+                    <atomic-field-condition if-defined="zespri_poc_item_type">
+                      <atomic-result-badge
+                        field="zespri_poc_item_type"
+                      ></atomic-result-badge>
+                    </atomic-field-condition>
+
+                    <atomic-field-condition if-defined="zespri_poc_item_status">
+                      <atomic-result-badge
+                        field="zespri_poc_item_status"
+                      ></atomic-result-badge>
+                    </atomic-field-condition>
+                  </atomic-result-section-badges>
+
+                  <atomic-result-section-actions>
+                    <atomic-quickview></atomic-quickview>
+                  </atomic-result-section-actions>
+                  <!-- 
+                  <atomic-result-section-emphasized>
+
+                    <atomic-result-text field="zespri_poc_item_type"></atomic-text>
+                    
+
+                  </atomic-result-section-emphasized> -->
+
+                  <!-- ** Add the code from the Title Metadata Result Section here ** -->
+
+                  <!-- ** Add the code from the Bottom Metadata Result Section here ** -->
+
+                  <atomic-result-section-bottom-metadata>
+                    <atomic-result-fields-list>
+                      <atomic-field-condition if-defined="date">
+                        <span class="field-label">Date Published:</span>
+                        <atomic-result-date></atomic-result-date>
+                      </atomic-field-condition>
+                    </atomic-result-fields-list>
+                  </atomic-result-section-bottom-metadata>
+
+                  <atomic-result-section-title>
+                    <atomic-result-link target="_blank"></atomic-result-link>
+                    <!-- <atomic-quickview></atomic-quickview> -->
+                  </atomic-result-section-title>
+                  <atomic-result-section-excerpt>
+                    <atomic-result-text field="excerpt"></atomic-result-text>
+                  </atomic-result-section-excerpt>
+                </template>
+              </atomic-result-template>
+            </atomic-result-list>
+            <atomic-query-error></atomic-query-error>
+            <atomic-no-results></atomic-no-results>
+          </atomic-layout-section>
+
+          <!-- END : Atomic Search Main-> Results Section -->
+
+          <!-- BEGIN : Atomic Search Main-> pagination Section -->
+          <atomic-layout-section section="pagination">
+            <!-- <atomic-load-more-results></atomic-load-more-results> -->
+            <atomic-pager number-of-pages="10"></atomic-pager>
+          </atomic-layout-section>
+          <!-- END : Atomic Search Main-> pagination Section -->
+        </atomic-layout-section>
+        <!-- END : Atomic Search Main Section -->
+      </atomic-search-layout>
+      <!--END : all Atomic components will go in here -->
+    </atomic-search-interface>
+  </body>
+</html>
