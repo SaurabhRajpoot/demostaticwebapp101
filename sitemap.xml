@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:coveo="https://www.coveo.com/en/company/about-us">
-    <!-- <script> let decodeRaw = function (raw) { let rawString = ''; if (raw &amp; raw.length) { try {
+    <!-- <script> let decodeRaw = function (raw) { let rawString = ''; if (raw &amp; raw.length) {
+    try {
         let totalLen = 0; let aUint8 = raw.map(r => { let a = new Uint8Array(r.bytes); totalLen +=
         a.length; return a; }); let c = new (aUint8[0].constructor)(totalLen); let len = 0;
         aUint8.forEach(a => { c.set(a, len); len += a.length; }); rawString =
@@ -25,11 +26,11 @@
         Checker: Beacon catcher loaded'); </script> -->
     <!-- Page 1 -->
     <url>
-        <loc>https://www.zespri.com/en-US/recipedetail/toasted-coconut-kiwifruit-cup</loc>
+        <loc>https://www.zespri.com/en-US/share-a-sungold</loc>
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Cultivator</group>
+            <group>Cultivar</group>
             <category>Red19</category>
             <subcategory></subcategory>
             <title></title>
@@ -40,7 +41,53 @@
 
     <!-- Page 2 -->
     <url>
-        <loc>https://www.zespri.com/en-US/recipedetail/pan-seared-salmon-with-kiwifruit-salsa</loc>
+        <loc>https://www.zespri.com/en-US/blogdetail/green-vs-gold-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Cultivar</group>
+            <category>Gold3</category>
+            <subcategory></subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <!-- Page 3 -->
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/can-i-eat-the-skin-of-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Cultivar</group>
+            <category>Hayward</category>
+            <subcategory></subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+    <!-- Page4 -->
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/how-many-calories-are-in-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Cultivar</group>
+            <category>Green14</category>
+            <subcategory></subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+    <!-- Page5 -->
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/can-i-refrigerate-kiwifruit</loc>
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
@@ -54,9 +101,129 @@
     </url>
 
 
-    <!-- Page 3 -->
     <url>
-        <loc>https://www.zespri.com/en-US/recipedetail/green-kiwifruit-zinger</loc>
+        <loc>https://www.zespri.com/en-US/blogdetail/when-is-kiwifruit-season</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Growing Method</group>
+            <category>Organic</category>
+            <subcategory></subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/how-do-i-ripen-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>NZ Region</group>
+            <category>Northland</category>
+            <subcategory>Whangarei</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/history-of-zespri-sungold-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>NZ Region</group>
+            <category>Bay of Plenty</category>
+            <subcategory>Opotiki</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>
+            https://www.zespri.com/en-US/blogdetail/tenderize-and-marinate-meat-with-green-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>NZ Region</group>
+            <category>Bay of Plenty</category>
+            <subcategory>Tauranga</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/kiwi-journey-from-seed-to-store</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>NZ Region</group>
+            <category>Bay of Plenty</category>
+            <subcategory>Waihi</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>
+            https://www.zespri.com/en-US/blogdetail/cut-slice-or-peel-the-many-ways-to-eat-and-enjoy-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>NZ Region</group>
+            <category>Bay of Plenty</category>
+            <subcategory>Katitaki</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/kiwifruit-and-bananas-nutritional-twinsies</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>NZ Region</group>
+            <category>Waikato</category>
+            <subcategory>Waikato</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/candied-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>NZ Region</group>
+            <category>Waikato</category>
+            <subcategory>Coromandel</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/where-are-kiwifruit-grown</loc>
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
@@ -69,34 +236,245 @@
         </coveo:metadata>
     </url>
 
-    <!-- Page4 -->
+
     <url>
-        <loc>https://www.zespri.com/en-US/recipedetail/toasted-coconut-kiwifruit-cup</loc>
+        <loc>https://www.zespri.com/en-US/blogdetail/quick-kiwi-recipes</loc>
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
             <group>Growing</group>
             <category>Budbreak</category>
-            <subcategory>Hicane|Predicting</subcategory>
+            <subcategory>Hicane</subcategory>
             <title></title>
             <description></description>
             <season></season>
         </coveo:metadata>
     </url>
 
-    <!-- Page5 -->
+
     <url>
-        <loc>https://www.zespri.com/en-US/recipedetail/kiwi-agua-fresca</loc>
+        <loc>https://www.zespri.com/en-US/blogdetail/add-excitement-to-snacktime-with-edible-kiwi-flowers</loc>
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Protection</group>
-            <category>Disease</category>
-            <subcategory>PSA</subcategory>
+            <group>Growing</group>
+            <category>Budbreak</category>
+            <subcategory>Enhancers</subcategory>
             <title></title>
             <description></description>
             <season></season>
         </coveo:metadata>
     </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/potassium-power-smoothie</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Growing</group>
+            <category>Budbreak</category>
+            <subcategory>Winter Bud</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/vietnamese-noodle-salad-shrimp-kiwi-fruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Growing</group>
+            <category>Budbreak</category>
+            <subcategory>King</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/protein-packed-salmon-power-bowl-with-sungold-kiwifruit-ponzu-sauce</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Growing</group>
+            <category>Budbreak</category>
+            <subcategory>Monitoring</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/sungold-summer-squash-smoothie</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Growing</group>
+            <category>Pruning</category>
+            <subcategory>Wood</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/vietnamese-spring-rolls-with-kiwifruit-nuoc-cham</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Growing</group>
+            <category>Pruning</category>
+            <subcategory>Bud</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/kiwifruit-chi-chi</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Growing</group>
+            <category>Grafting</category>
+            <subcategory>Rootstock</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/sungold-kiwifruit-st-germain-splash</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Growing</group>
+            <category>Grafting</category>
+            <subcategory>Scion</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/green-sungold-kiwifruit-salsa</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Post Harvest</group>
+            <category>Packing</category>
+            <subcategory>Health</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/zespri-kiwi-quinoa-holiday-stuffing</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Post Harvest</group>
+            <category>Packing</category>
+            <subcategory>Safety</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/kiwifruit-mojito</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Post Harvest</group>
+            <category>Packing</category>
+            <subcategory>Food</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/ginger-prawns-sungold-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Harvest</group>
+            <category>Maturity</category>
+            <subcategory>Clearance</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/zespri-kiwifruit-cucumber-reviver</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Harvest</group>
+            <category>Maturity</category>
+            <subcategory>Process</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/bbq-jackfruit-squash-bowls-creamy-kiwi-lime-sauce</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Harvest</group>
+            <category>Maturity</category>
+            <subcategory>Report</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/turkey-sliders-with-fresh-kiwifruit-chutney</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Harvest</group>
+            <category>Maturity</category>
+            <subcategory>Monitoring</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
 
 </urlset> 
