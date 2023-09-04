@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Page 1 -->
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/toasted-coconut-kiwifruit-cup</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Cultivator</group>
+            <category>Red19</category>
+            <subcategory></subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+    <!-- Page 2 -->
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/pan-seared-salmon-with-kiwifruit-salsa</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Growing Method</group>
+            <category>Conventional</category>
+            <subcategory></subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+
+    <!-- Page 3 -->
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/green-kiwifruit-zinger</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Growing</group>
+            <category>Budbreak</category>
+            <subcategory>Predicting</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+    <!-- Page4 -->
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/toasted-coconut-kiwifruit-cup</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Growing</group>
+            <category>Budbreak</category>
+            <subcategory>Hicane|Predicting</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+    <!-- Page5 -->
+    <url>
+        <loc>https://www.zespri.com/en-US/recipedetail/kiwi-agua-fresca</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Protection</group>
+            <category>Disease</category>
+            <subcategory>PSA</subcategory>
+            <title></title>
+            <description></description>
+            <season></season>
+        </coveo:metadata>
+    </url>
+
+</urlset> 
