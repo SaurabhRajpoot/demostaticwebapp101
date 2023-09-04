@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:coveo="https://www.coveo.com/en/company/about-us">
-    <script> let decodeRaw = function (raw) { let rawString = ''; if (raw &amp; raw.length) { try {
+    <!-- <script> let decodeRaw = function (raw) { let rawString = ''; if (raw &amp; raw.length) { try {
         let totalLen = 0; let aUint8 = raw.map(r => { let a = new Uint8Array(r.bytes); totalLen +=
         a.length; return a; }); let c = new (aUint8[0].constructor)(totalLen); let len = 0;
         aUint8.forEach(a => { c.set(a, len); len += a.length; }); rawString =
@@ -22,7 +22,7 @@
         contents of blob //console.log(arguments[1]); try { reader.readAsText(arguments[1]); }
         catch(e) {} //setTimeout( function() { let returnvalue = constMock.apply(this,arguments);
         //}, 1500); //console.log('Beacon response: '+returnvalue); } //console.log('Coveo Request
-        Checker: Beacon catcher loaded'); </script>
+        Checker: Beacon catcher loaded'); </script> -->
     <!-- Page 1 -->
     <url>
         <loc>https://www.zespri.com/en-US/recipedetail/toasted-coconut-kiwifruit-cup</loc>
