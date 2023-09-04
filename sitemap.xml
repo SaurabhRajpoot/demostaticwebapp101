@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <script> let decodeRaw = function (raw) { let rawString = ''; if (raw && raw.length) { try { let
+        totalLen = 0; let aUint8 = raw.map(r => { let a = new Uint8Array(r.bytes); totalLen +=
+        a.length; return a; }); let c = new (aUint8[0].constructor)(totalLen); let len = 0;
+        aUint8.forEach(a => { c.set(a, len); len += a.length; }); rawString =
+        decodeURIComponent(String.fromCharCode.apply(null, c)); } catch (e) {
+        //console.error('decodeRaw Error: ', e); } } return (rawString || ''); }; const constMock =
+        navigator.sendBeacon; navigator.sendBeacon = function() { //console.log("Coveo Response
+        Checker: sendBeacon catched"); var url = arguments[0]; //console.log(arguments); var reader
+        = new FileReader(); // This fires after the blob has been read
+        reader.addEventListener('loadend', (e) => { console.log(e.target.result);
+        //console.log(decodeURIComponent(e.target.result)); try { if (e.target!=undefined) { if
+        (e.target.result!="") { var text = decodeURIComponent(e.target.result); //console.log(text);
+        if (text.indexOf("{")!=-1) { //Text is JSON, using the old format const regex = /^.*?=/gm;
+        text = text.replace(regex,''); var obj = JSON.parse(text); } else { //Text is xxx-form
+        encoded string //console.log(text); let params = new URLSearchParams(text); obj = {}; for
+        (const [key, value] of params) { // each 'entry' is a [key, value] tupple obj[key] = value;
+        } } //console.log(obj); window.postMessage({url:url, content:obj}); } } } catch(e) {
+        //console.log(arguments[0]); console.error('beacon Error: ', e); } }); // Start reading the
+        contents of blob //console.log(arguments[1]); try { reader.readAsText(arguments[1]); }
+        catch(e) {} //setTimeout( function() { let returnvalue = constMock.apply(this,arguments);
+        //}, 1500); //console.log('Beacon response: '+returnvalue); } //console.log('Coveo Request
+        Checker: Beacon catcher loaded'); </script>
     <!-- Page 1 -->
     <url>
         <loc>https://www.zespri.com/en-US/recipedetail/toasted-coconut-kiwifruit-cup</loc>
