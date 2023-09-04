@@ -31,7 +31,7 @@
         <changefreq>monthly</changefreq>
         <coveo:metadata>
             <group>Cultivar</group>
-            <category>Red19</category>
+            <category>Red19;Green14</category>
             <subcategory></subcategory>
             <title></title>
             <description></description>
