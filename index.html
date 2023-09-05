@@ -41,7 +41,7 @@
 
         await searchInterface.initialize({
           accessToken:
-            "eyJhbGciOiJIUzI1NiJ9.eyJ2OCI6dHJ1ZSwidG9rZW5JZCI6Inh6N256aXF6Zjd3Zjd3a3N5dDM0ZTJzcHh5Iiwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJ1c2VyRGlzcGxheU5hbWUiOiJTYXVyYWJoIEt1bWFyIiwicGlwZWxpbmUiOiJ6ZXNwcmktcG9jLXBpcGVsaW5lIiwidXNlckdyb3VwcyI6WyJmdWxsIl0sInNlYXJjaEh1YiI6Inplc3ByaS1wb2Mtc2VhcmNoIiwib3JnYW5pemF0aW9uIjoiemVzcHJpaW50ZXJuYXRpb25hbGx0ZG5vbnByb2R1Y3Rpb24xb2N0ZDRmMHEiLCJ1c2VySWRzIjpbeyJuYW1lIjoic2F1cmFiaC5rdW1hckB6ZXNwcmkuY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciIsImluZm9zIjp7fSwidHlwZSI6IlVzZXIiLCJhdXRoQ29va2llIjoiIn1dLCJleHAiOjE2OTM0NTg2OTcsImlhdCI6MTY5MzM3MjI5N30.cU3hhNs05zknhM6E1DpuH-Qr-agk5f99cNL0mUL9FRw",
+          "eyJhbGciOiJIUzI1NiJ9.eyJwaXBlbGluZSI6Inplc3ByaS1wb2MtcGlwZWxpbmUtMSIsInNlYXJjaEh1YiI6Inplc3ByaS1wb2Mtc2VhcmNoIiwidjgiOnRydWUsInRva2VuSWQiOiJ4aXk3ZXVqemNuZWJzbXpqN283dmhrMmZ1aSIsIm9yZ2FuaXphdGlvbiI6Inplc3ByaWludGVybmF0aW9uYWxsdGRub25wcm9kdWN0aW9uMW9jdGQ0ZjBxIiwidXNlcklkcyI6W3sidHlwZSI6IlVzZXIiLCJuYW1lIjoic2F1cmFiaC5rdW1hckB6ZXNwcmkuY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciJ9XSwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJ1c2VyRGlzcGxheU5hbWUiOiJTYXVyYWJoIEt1bWFyIiwiZXhwIjoxNjkzOTU4MTI4LCJpYXQiOjE2OTM4NzE3Mjh9.rW7kUu6iWtQv2-FX_K0TaPozUoE-1_ehK23T9ZDNN9I",
           organizationId: "zespriinternationalltdnonproduction1octd4f0q",
           organizationEndpoints: await searchInterface.getOrganizationEndpoints(
             "zespriinternationalltdnonproduction1octd4f0q"
@@ -103,7 +103,9 @@
         <h1>HOME PAGE : SEARCH OUR LIBRARY</h1>
         <div id="globalSearchBox">
           <atomic-search-interface id="canopy-standalone-search">
-            <atomic-search-box redirection-url="/search.html#f-zespri_poc_item_status=liveitems">
+            <atomic-search-box
+              redirection-url="/searchwithfacets.html"
+            >
               <atomic-search-box-query-suggestions></atomic-search-box-query-suggestions>
             </atomic-search-box>
           </atomic-search-interface>

@@ -30,9 +30,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Cultivar;Business</group>
-            <category>Red19;Green14;License;Performance</category>
+            <group>Cultivar;Business;Language;Growth Stage</group>
+            <category>Red19;Green14;License;Performance;Punjabi;Winter(Dormancy)</category>
             <subcategory>GPS;Monitoring</subcategory>
+            <language>Punjabi</language>
+            <season>Winter(Dormancy)</season>
             <title></title>
             <description></description>
             <season></season>
@@ -45,9 +47,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Cultivar</group>
-            <category>Gold3</category>
+            <group>Cultivar;Growth Stage;Language</group>
+            <category>Gold3;English;Budbreak To Flowering</category>
             <subcategory></subcategory>
+            <language>English</language>
+            <season>Budbreak To Flowering</season>
             <title></title>
             <description></description>
             <season></season>
@@ -61,9 +65,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Cultivar</group>
-            <category>Hayward</category>
+            <group>Cultivar;Language;Growth Stage</group>
+            <category>Hayward;English;Budbreak To Flowering</category>
             <subcategory></subcategory>
+            <language>English</language>
+            <season>Budbreak To Flowering</season>
             <title></title>
             <description></description>
             <season></season>
@@ -76,9 +82,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Cultivar</group>
-            <category>Green14</category>
+            <group>Cultivar;Language;Growth Stage</group>
+            <category>Green14;English;Flowering To Harvest</category>
             <subcategory></subcategory>
+            <language>English</language>
+            <season>Flowering To Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -91,9 +99,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing Method</group>
-            <category>Conventional</category>
+            <group>Growing Method;Language;Growth Stage</group>
+            <category>Conventional;English;Flowering To Harvest</category>
             <subcategory></subcategory>
+            <language>English</language>
+            <season>Flowering To Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -106,9 +116,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing Method</group>
-            <category>Organic</category>
+            <group>Growing Method;Language;Growth Stage</group>
+            <category>Organic;English;Flowering To Harvest</category>
             <subcategory></subcategory>
+            <language>English</language>
+            <season>Flowering To Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -120,9 +132,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>NZ Region</group>
-            <category>Northland</category>
+            <group>NZ Region;Language;Growth Stage</group>
+            <category>Northland;English;Flowering To Harvest</category>
             <subcategory>Whangarei</subcategory>
+            <language>English</language>
+            <season>Flowering To Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -135,9 +149,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>NZ Region</group>
-            <category>Bay of Plenty</category>
+            <group>NZ Region;Language;Growth Stage</group>
+            <category>Bay of Plenty;English;Flowering To Harvest</category>
             <subcategory>Opotiki</subcategory>
+            <language>English</language>
+            <season>Flowering To Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -151,9 +167,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>NZ Region</group>
-            <category>Bay of Plenty</category>
+            <group>NZ Region;Language;Growth Stage</group>
+            <category>Bay of Plenty;English;Harvest</category>
             <subcategory>Tauranga</subcategory>
+            <language>English</language>
+            <season>Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -166,9 +184,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>NZ Region</group>
-            <category>Bay of Plenty</category>
+            <group>NZ Region;Language;Growth Stage</group>
+            <category>Bay of Plenty;English;Harvest</category>
             <subcategory>Waihi</subcategory>
+            <language>English</language>
+            <season>Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -182,9 +202,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>NZ Region</group>
-            <category>Bay of Plenty</category>
+            <group>NZ Region;Language;Growth Stage</group>
+            <category>Bay of Plenty;English;Harvest</category>
             <subcategory>Katitaki</subcategory>
+            <language>English</language>
+            <season>Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -197,9 +219,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>NZ Region</group>
-            <category>Waikato</category>
+            <group>NZ Region;Language;Growth Stage</group>
+            <category>Waikato;English;Harvest</category>
             <subcategory>Waikato</subcategory>
+            <language>English</language>
+            <season>Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -212,9 +236,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>NZ Region</group>
-            <category>Waikato</category>
+            <group>NZ Region;Language;Growth Stage</group>
+            <category>Waikato;English;Harvest</category>
             <subcategory>Coromandel</subcategory>
+            <language>English</language>
+            <season>Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -227,9 +253,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing</group>
-            <category>Budbreak</category>
+            <group>Growing;Language;Growth Stage</group>
+            <category>Budbreak;English;Harvest</category>
             <subcategory>Predicting</subcategory>
+            <language>English</language>
+            <season>Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -242,9 +270,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing</group>
-            <category>Budbreak</category>
+            <group>Growing;Language;Growth Stage</group>
+            <category>Budbreak;English;Harvest</category>
             <subcategory>Hicane</subcategory>
+            <language>English</language>
+            <season>Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -258,9 +288,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing</group>
-            <category>Budbreak</category>
+            <group>Growing;Language;Growth Stage</group>
+            <category>Budbreak;English;Harvest</category>
             <subcategory>Enhancers</subcategory>
+            <language>English</language>
+            <season>Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -273,9 +305,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing</group>
-            <category>Budbreak</category>
+            <group>Growing;Language;Growth Stage</group>
+            <category>Budbreak;English;Harvest</category>
             <subcategory>Winter Bud</subcategory>
+            <language>English</language>
+            <season>Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -288,9 +322,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing</group>
-            <category>Budbreak</category>
+            <group>Growing;Language;Growth Stage</group>
+            <category>Budbreak;Punjabi;Harvest</category>
             <subcategory>King</subcategory>
+            <language>Punjabi</language>
+            <season>Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -304,9 +340,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing</group>
-            <category>Budbreak</category>
+            <group>Growing;Language;Growth Stage</group>
+            <category>Budbreak;Punjabi;After Harvest</category>
             <subcategory>Monitoring</subcategory>
+            <language>Punjabi</language>
+            <season>After Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -319,9 +357,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing</group>
-            <category>Pruning</category>
+            <group>Growing;Language;Growth Stage</group>
+            <category>Pruning;English;After Harvest</category>
             <subcategory>Wood</subcategory>
+            <language>English</language>
+            <season>After Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -335,9 +375,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing</group>
-            <category>Pruning</category>
+            <group>Growing;Language;Growth Stage</group>
+            <category>Pruning;Punjabi;After Harvest</category>
             <subcategory>Bud</subcategory>
+            <language>Punjabi</language>
+            <season>After Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -350,9 +392,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing</group>
-            <category>Grafting</category>
+            <group>Growing;Language;Growth Stage</group>
+            <category>Grafting;English;After Harvest</category>
             <subcategory>Rootstock</subcategory>
+            <language>English</language>
+            <season>After Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -365,9 +409,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing</group>
-            <category>Grafting</category>
+            <group>Growing;Language;Growth Stage</group>
+            <category>Grafting;Punjabi;After Harvest</category>
             <subcategory>Scion</subcategory>
+            <language>Punjabi</language>
+            <season>After Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -380,9 +426,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Post Harvest</group>
-            <category>Packing</category>
+            <group>Post Harvest;Language;Growth Stage</group>
+            <category>Packing;English;After Harvest</category>
             <subcategory>Health</subcategory>
+            <language>English</language>
+            <season>After Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -395,9 +443,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Post Harvest</group>
-            <category>Packing</category>
+            <group>Post Harvest;Language;Growth Stage</group>
+            <category>Packing;English;After Harvest</category>
             <subcategory>Safety</subcategory>
+            <language>English</language>
+            <season>After Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -410,9 +460,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Post Harvest</group>
-            <category>Packing</category>
+            <group>Post Harvest;Language;Growth Stage</group>
+            <category>Packing;English;After Harvest</category>
             <subcategory>Food</subcategory>
+            <language>English</language>
+            <season>After Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -425,9 +477,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Harvest</group>
-            <category>Maturity</category>
+            <group>Harvest;Language;Growth Stage</group>
+            <category>Maturity;English;After Harvest</category>
             <subcategory>Clearance</subcategory>
+            <language>English</language>
+            <season>After Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -440,9 +494,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Harvest</group>
-            <category>Maturity</category>
+            <group>Harvest;Language;Growth Stage</group>
+            <category>Maturity;English;After Harvest</category>
             <subcategory>Process</subcategory>
+            <language>English</language>
+            <season>After Harvest</season>
             <title></title>
             <description></description>
             <season></season>
@@ -456,9 +512,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Harvest</group>
-            <category>Maturity</category>
+            <group>Harvest;Language;Growth Stage</group>
+            <category>Maturity;English;Budbreak To Flowering</category>
             <subcategory>Report</subcategory>
+            <language>English</language>
+            <season>Budbreak To Flowering</season>
             <title></title>
             <description></description>
             <season></season>
@@ -471,9 +529,11 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Harvest</group>
-            <category>Maturity</category>
+            <group>Harvest;Language;Growth Stage</group>
+            <category>Maturity;English;Budbreak To Flowering</category>
             <subcategory>Monitoring</subcategory>
+            <language>English</language>
+            <season>Budbreak To Flowering</season>
             <title></title>
             <description></description>
             <season></season>
