@@ -116,5 +116,23 @@
         </coveo:metadata>
     </url>
 
+   <!-- Page6 -->
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/when-is-kiwifruit-season</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Growing Method;Language;Growth Stage</group>
+            <category>Organic;English;Flowering To Harvest</category>
+            <subcategory></subcategory>
+            <contentlanguage>English</contentlanguage>
+            <season>Flowering To Harvest</season>
+            <title></title>
+            <description></description>
+            <season></season>
+            <contenttopic>Protection;Protection|Disease;Protection|Disease|PSA</contenttopic>
+        </coveo:metadata>
+    </url>
+
 
 </urlset> 
