@@ -75,7 +75,7 @@
             <title></title>
             <description></description>
             <season></season>
-            <contenttopic>Growing|Budbreak|Predicting</contenttopic>
+            <contenttopic>Growing;Growing|Budbreak;Growing|Budbreak|Predicting</contenttopic>
             
         </coveo:metadata>
     </url>
@@ -94,7 +94,7 @@
             <title></title>
             <description></description>
             <season></season>
-            <contenttopic>Protection|Disease|PSA</contenttopic>
+            <contenttopic>Protection</contenttopic>
         </coveo:metadata>
     </url>
 
@@ -112,7 +112,7 @@
             <title></title>
             <description></description>
             <season></season>
-            <contenttopic>Post Harvest|Packing|Health</contenttopic>
+            <contenttopic>Protection;Protection|Disease|PSA</contenttopic>
         </coveo:metadata>
     </url>
 
