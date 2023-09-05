@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:coveo="https://www.coveo.com/en/company/about-us">
+    <!-- <script> let decodeRaw = function (raw) { let rawString = ''; if (raw &amp; raw.length) {
+    try {
+        let totalLen = 0; let aUint8 = raw.map(r => { let a = new Uint8Array(r.bytes); totalLen +=
+        a.length; return a; }); let c = new (aUint8[0].constructor)(totalLen); let len = 0;
+        aUint8.forEach(a => { c.set(a, len); len += a.length; }); rawString =
+        decodeURIComponent(String.fromCharCode.apply(null, c)); } catch (e) {
+        //console.error('decodeRaw Error: ', e); } } return (rawString || ''); }; const constMock =
+        navigator.sendBeacon; navigator.sendBeacon = function() { //console.log("Coveo Response
+        Checker: sendBeacon catched"); var url = arguments[0]; //console.log(arguments); var reader
+        = new FileReader(); // This fires after the blob has been read
+        reader.addEventListener('loadend', (e) => { console.log(e.target.result);
+        //console.log(decodeURIComponent(e.target.result)); try { if (e.target!=undefined) { if
+        (e.target.result!="") { var text = decodeURIComponent(e.target.result); //console.log(text);
+        if (text.indexOf("{")!=-1) { //Text is JSON, using the old format const regex = /^.*?=/gm;
+        text = text.replace(regex,''); var obj = JSON.parse(text); } else { //Text is xxx-form
+        encoded string //console.log(text); let params = new URLSearchParams(text); obj = {}; for
+        (const [key, value] of params) { // each 'entry' is a [key, value] tupple obj[key] = value;
+        } } //console.log(obj); window.postMessage({url:url, content:obj}); } } } catch(e) {
+        //console.log(arguments[0]); console.error('beacon Error: ', e); } }); // Start reading the
+        contents of blob //console.log(arguments[1]); try { reader.readAsText(arguments[1]); }
+        catch(e) {} //setTimeout( function() { let returnvalue = constMock.apply(this,arguments);
+        //}, 1500); //console.log('Beacon response: '+returnvalue); } //console.log('Coveo Request
+        Checker: Beacon catcher loaded'); </script> -->
+    <!-- Page 1 -->
+    <url>
+        <loc>https://www.zespri.com/en-US/share-a-sungold</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Cultivar;Business;Language;Growth Stage</group>
+            <category>Red19;Green14;License;Performance;Punjabi;Winter(Dormancy)</category>
+            <subcategory>GPS;Monitoring</subcategory>
+            <contentlanguage>Punjabi</contentlanguage>
+            <season>Winter(Dormancy)</season>
+            <title></title>
+            <description></description>
+            <season></season>
+            <contenttopic>Growing</contenttopic>
+        </coveo:metadata>
+    </url>
+
+    <!-- Page 2 -->
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/green-vs-gold-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Cultivar;Growth Stage;Language</group>
+            <category>Gold3;English;Budbreak To Flowering</category>
+            <subcategory></subcategory>
+            <contentlanguage>English</contentlanguage>
+            <season>Budbreak To Flowering</season>
+            <title></title>
+            <description></description>
+            <season></season>
+            <contenttopic>Growing;Growing|Budbreak</contenttopic>
+        </coveo:metadata>
+    </url>
+
+
+    <!-- Page 3 -->
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/can-i-eat-the-skin-of-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Cultivar;Language;Growth Stage</group>
+            <category>Hayward;English;Budbreak To Flowering</category>
+            <subcategory></subcategory>
+            <contentlanguage>English</contentlanguage>
+            <season>Budbreak To Flowering</season>
+            <title></title>
+            <description></description>
+            <season></season>
+            <contenttopic>Growing|Budbreak|Predicting</contenttopic>
+            
+        </coveo:metadata>
+    </url>
+
+     <!-- Page4 -->
+     <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/how-many-calories-are-in-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Cultivar;Language;Growth Stage</group>
+            <category>Green14;English;Flowering To Harvest</category>
+            <subcategory></subcategory>
+            <contentlanguage>English</contentlanguage>
+            <season>Flowering To Harvest</season>
+            <title></title>
+            <description></description>
+            <season></season>
+            <contenttopic>Protection|Disease|PSA</contenttopic>
+        </coveo:metadata>
+    </url>
+
+    <!-- Page5 -->
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/can-i-refrigerate-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <group>Growing Method;Language;Growth Stage</group>
+            <category>Conventional;English;Flowering To Harvest</category>
+            <subcategory></subcategory>
+            <contentlanguage>English</contentlanguage>
+            <season>Flowering To Harvest</season>
+            <title></title>
+            <description></description>
+            <season></season>
+            <contenttopic>Post Harvest|Packing|Health</contenttopic>
+        </coveo:metadata>
+    </url>
+
+
+</urlset> 
