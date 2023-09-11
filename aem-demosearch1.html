@@ -16,7 +16,7 @@
         await customElements.whenDefined("atomic-search-interface");
         const searchInterface = document.querySelector("#canopy-search-page");
         await searchInterface.initialize({
-          accessToken: "xx8f75f001-935f-4988-8fda-52e8903e8709",
+          accessToken: "xx400faad5-4a12-4a11-a383-bfe8f9bf34d2",
           organizationId: "zespriinternationalltdnonproduction1octd4f0q",
           organizationEndpoints: await searchInterface.getOrganizationEndpoints(
             "zespriinternationalltdnonproduction1octd4f0q"
@@ -97,7 +97,6 @@
     <atomic-search-interface
       id="canopy-search-page"
       search-hub="zespri-poc-search"
-      pipeline="zespri-poc-pipeline-2"
       fields-to-include='["zespri_poc_result_contenttype3","zespri_poc_result_image", "zespri_poc_item_season","zespri_poc_item_status","zespri_poc_item_type","filename","zespri_poc_result_contenttype3"]'
     >
       <atomic-search-layout>
@@ -113,53 +112,28 @@
         <atomic-layout-section section="facets">
           <!-- <atomic-facet-manager> -->
 
-          <atomic-facet field="source" label="source"></atomic-facet>
-          <atomic-facet field="zespri_poc_group" label="Group"></atomic-facet>
+          <!-- <atomic-facet field="zespri_poc_group" label="Group"></atomic-facet> -->
 
-          <atomic-facet
+          <!-- <atomic-facet
             field="zespri_poc_category"
             label="Category"
-          ></atomic-facet>
+          ></atomic-facet> -->
 
-          <atomic-facet
+          <!-- <atomic-facet
             field="zespri_poc_subcategory"
             label="Sub Category"
-          ></atomic-facet>
+          ></atomic-facet> -->
 
-          <atomic-facet
+          <!-- <atomic-facet
             field="zespri_poc_language"
             label="Language"
-          ></atomic-facet>
+          ></atomic-facet> -->
 
-          <atomic-facet field="zespri_poc_season" label="Season"></atomic-facet>
-
-          <atomic-category-facet
-            base-path=""
-            label="Content Topic"
-            field="zespri_poc_contenttopic"
-            delimiting-character="|"
-          ></atomic-category-facet>
-
-          <!-- <atomic-category-facet
-            base-path=""
-            field="zespri_poc_result_contenttype"
-            label="Content Type"
-            delimiting-character="|"
-          ></atomic-category-facet> -->
-
-          <!-- <atomic-category-facet
-            base-path=""
-            field="zespri_poc_result_contenttype1"
-            label="Content Type1"
-          ></atomic-category-facet> -->
-
-          <!-- <atomic-category-facet
-            base-path=""
-            field="zespri_poc_result_contenttype3"
-            label="Content Type"
-            delimiting-character="|"
-            displayValuesAs="checkbox"
-          ></atomic-category-facet> -->
+          <!-- 
+          <atomic-facet
+            field="zespri_poc_season"
+            label="Season"
+          ></atomic-facet> -->
 
           <!-- </atomic-facet-manager> -->
         </atomic-layout-section>

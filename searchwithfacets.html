@@ -17,7 +17,7 @@
         const searchInterface = document.querySelector("#canopy-search-page");
         await searchInterface.initialize({
           accessToken:
-          "eyJhbGciOiJIUzI1NiJ9.eyJwaXBlbGluZSI6Inplc3ByaS1wb2MtcGlwZWxpbmUtMSIsInNlYXJjaEh1YiI6Inplc3ByaS1wb2Mtc2VhcmNoIiwidjgiOnRydWUsInRva2VuSWQiOiJ4aXk3ZXVqemNuZWJzbXpqN283dmhrMmZ1aSIsIm9yZ2FuaXphdGlvbiI6Inplc3ByaWludGVybmF0aW9uYWxsdGRub25wcm9kdWN0aW9uMW9jdGQ0ZjBxIiwidXNlcklkcyI6W3sidHlwZSI6IlVzZXIiLCJuYW1lIjoic2F1cmFiaC5rdW1hckB6ZXNwcmkuY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciJ9XSwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJ1c2VyRGlzcGxheU5hbWUiOiJTYXVyYWJoIEt1bWFyIiwiZXhwIjoxNjkzOTU4MTI4LCJpYXQiOjE2OTM4NzE3Mjh9.rW7kUu6iWtQv2-FX_K0TaPozUoE-1_ehK23T9ZDNN9I",
+          "eyJhbGciOiJIUzI1NiJ9.eyJwaXBlbGluZSI6Inplc3ByaS1wb2MtcGlwZWxpbmUtMSIsInNlYXJjaEh1YiI6Inplc3ByaS1wb2Mtc2VhcmNoIiwidjgiOnRydWUsInRva2VuSWQiOiJ2dHJsNG1xZXN6czZsbnlmam00ZWlna2E0eSIsIm9yZ2FuaXphdGlvbiI6Inplc3ByaWludGVybmF0aW9uYWxsdGRub25wcm9kdWN0aW9uMW9jdGQ0ZjBxIiwidXNlcklkcyI6W3sidHlwZSI6IlVzZXIiLCJuYW1lIjoic2F1cmFiaC5rdW1hckB6ZXNwcmkuY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciJ9XSwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJ1c2VyRGlzcGxheU5hbWUiOiJTYXVyYWJoIEt1bWFyIiwiZXhwIjoxNjk0NDczMzk0LCJpYXQiOjE2OTQzODY5OTR9.EtD9K5hCFD9CKVEyZK3QhTChYwabwQJA1GHYLuO8Jp8",
           organizationId: "zespriinternationalltdnonproduction1octd4f0q",
           organizationEndpoints: await searchInterface.getOrganizationEndpoints(
             "zespriinternationalltdnonproduction1octd4f0q"
@@ -111,49 +111,31 @@
         <!-- BEGIN : Atomic Facets Section -->
         <atomic-layout-section section="facets">
           <!-- <atomic-facet-manager> -->
-          <atomic-facet field="zespri_poc_group" label="Group"></atomic-facet>
 
-          <atomic-facet
+          <!-- <atomic-facet field="zespri_poc_group" label="Group"></atomic-facet> -->
+
+          <!-- <atomic-facet
             field="zespri_poc_category"
             label="Category"
-          ></atomic-facet>
+          ></atomic-facet> -->
 
-          <atomic-facet
+          <!-- <atomic-facet
             field="zespri_poc_subcategory"
             label="Sub Category"
-          ></atomic-facet>
+          ></atomic-facet> -->
 
-          <atomic-facet
+          <!-- <atomic-facet
             field="zespri_poc_language"
             label="Language"
-          ></atomic-facet>
+          ></atomic-facet> -->
 
-
+<!-- 
           <atomic-facet
             field="zespri_poc_season"
             label="Season"
-          ></atomic-facet>
+          ></atomic-facet> -->
 
-          <!-- <atomic-category-facet
-            base-path=""
-            field="zespri_poc_result_contenttype"
-            label="Content Type"
-            delimiting-character="|"
-          ></atomic-category-facet> -->
-
-          <!-- <atomic-category-facet
-            base-path=""
-            field="zespri_poc_result_contenttype1"
-            label="Content Type1"
-          ></atomic-category-facet> -->
-
-          <!-- <atomic-category-facet
-            base-path=""
-            field="zespri_poc_result_contenttype3"
-            label="Content Type"
-            delimiting-character="|"
-            displayValuesAs="checkbox"
-          ></atomic-category-facet> -->
+        
 
           <!-- </atomic-facet-manager> -->
         </atomic-layout-section>

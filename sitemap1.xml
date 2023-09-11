@@ -30,15 +30,23 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Cultivar;Business;Language;Growth Stage</group>
-            <category>Red19;Green14;License;Performance;Punjabi;Winter(Dormancy)</category>
-            <subcategory>GPS;Monitoring</subcategory>
-            <contentlanguage>Punjabi</contentlanguage>
-            <season>Winter(Dormancy)</season>
-            <title></title>
-            <description></description>
-            <season></season>
+            <contenttitle>Page 1 Title</contenttitle>
+            <contentdescription>Page 1 Description Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text</contentdescription>
+            <contentaccesslevel>Basic</contentaccesslevel>
+            <contentstatus>Live</contentstatus>
+            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+
+
             <contenttopic>Growing</contenttopic>
+            <contenttype>News</contenttype>
+            <cultivar>Red19</cultivar>
+            <location>Northland</location>
+            <growingmethod>Conventional</growingmethod>
+            <growthstage>Winter(Dormancy)</growthstage>
+            <contentlanguage>Punjabi</contentlanguage>
         </coveo:metadata>
     </url>
 
@@ -48,15 +56,24 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Cultivar;Growth Stage;Language</group>
-            <category>Gold3;English;Budbreak To Flowering</category>
-            <subcategory></subcategory>
-            <contentlanguage>English</contentlanguage>
-            <season>Budbreak To Flowering</season>
-            <title></title>
-            <description></description>
-            <season></season>
-            <contenttopic>Growing;Growing|Budbreak</contenttopic>
+            <contenttitle>Page 2 Title</contenttitle>
+            <contentdescription>Page 2 Description Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text</contentdescription>
+            <contentaccesslevel>Basic</contentaccesslevel>
+            <contentstatus>Live</contentstatus>
+            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+
+
+            <contenttopic>Growing;Growing|Budbreak;Growing|Budbreak </contenttopic>
+            <contentaccesslevel></contentaccesslevel>
+            <contenttype>News;News|Growing</contenttype>
+            <cultivar>Red19</cultivar>
+            <location>Waikato</location>
+            <growingmethod>Conventional</growingmethod>
+            <growthstage>Budbreak To Flowering</growthstage>
+            <contentlanguage>Punjabi</contentlanguage>
         </coveo:metadata>
     </url>
 
@@ -67,34 +84,51 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Cultivar;Language;Growth Stage</group>
-            <category>Hayward;English;Budbreak To Flowering</category>
-            <subcategory></subcategory>
-            <contentlanguage>English</contentlanguage>
-            <season>Budbreak To Flowering</season>
-            <title></title>
-            <description></description>
-            <season></season>
+
+            <contenttitle>Page 3 Title</contenttitle>
+            <contentdescription>Page 3 Description Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text</contentdescription>
+            <contentaccesslevel>Basic</contentaccesslevel>
+            <contentstatus>Live</contentstatus>
+            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+
+
             <contenttopic>Growing;Growing|Budbreak;Growing|Budbreak|Predicting</contenttopic>
-            
+            <contenttype>News;News|Zespri</contenttype>
+            <cultivar>Gold3</cultivar>
+            <location>Auckland</location>
+            <growingmethod>Conventional</growingmethod>
+            <growthstage>Budbreak To Flowering</growthstage>
+            <contentlanguage>English</contentlanguage>
         </coveo:metadata>
     </url>
 
-     <!-- Page4 -->
-     <url>
+    <!-- Page4 -->
+    <url>
         <loc>https://www.zespri.com/en-US/blogdetail/how-many-calories-are-in-kiwifruit</loc>
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Cultivar;Language;Growth Stage</group>
-            <category>Green14;English;Flowering To Harvest</category>
-            <subcategory></subcategory>
-            <contentlanguage>English</contentlanguage>
-            <season>Flowering To Harvest</season>
-            <title></title>
-            <description></description>
-            <season></season>
+
+            <contenttitle>Page 4 Title</contenttitle>
+            <contentdescription>Page 4 Description Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text</contentdescription>
+            <contentaccesslevel>Full</contentaccesslevel>
+            <contentstatus>Archived</contentstatus>
+            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+
+
             <contenttopic>Protection</contenttopic>
+            <contenttype>Events;Events|In Person</contenttype>
+            <cultivar>Hayward</cultivar>
+            <location>Auckland</location>
+            <growingmethod>Organic</growingmethod>
+            <growthstage>Flowering To Harvest</growthstage>
+            <contentlanguage>English</contentlanguage>
         </coveo:metadata>
     </url>
 
@@ -104,35 +138,83 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing Method;Language;Growth Stage</group>
-            <category>Conventional;English;Flowering To Harvest</category>
-            <subcategory></subcategory>
-            <contentlanguage>English</contentlanguage>
-            <season>Flowering To Harvest</season>
-            <title></title>
-            <description></description>
-            <season></season>
+
+
+            <contenttitle>Page 5 Title</contenttitle>
+            <contentdescription>Page 5 Description Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text</contentdescription>
+            <contentaccesslevel>Full</contentaccesslevel>
+            <contentstatus>Archived</contentstatus>
+            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+
+
             <contenttopic>Protection;Protection|Disease</contenttopic>
+            <contenttype>Events;Events|Online</contenttype>
+            <cultivar>Hayward</cultivar>
+            <location>Auckland</location>
+            <growingmethod>Organic</growingmethod>
+            <growthstage>Harvest</growthstage>
+            <contentlanguage>English</contentlanguage>
         </coveo:metadata>
     </url>
 
-   <!-- Page6 -->
+    <!-- Page6 -->
     <url>
         <loc>https://www.zespri.com/en-US/blogdetail/when-is-kiwifruit-season</loc>
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <group>Growing Method;Language;Growth Stage</group>
-            <category>Organic;English;Flowering To Harvest</category>
-            <subcategory></subcategory>
-            <contentlanguage>English</contentlanguage>
-            <season>Flowering To Harvest</season>
-            <title></title>
-            <description></description>
-            <season></season>
+
+
+            <contenttitle>Page 6 Title</contenttitle>
+            <contentdescription>Page 6 Description Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text</contentdescription>
+            <contentaccesslevel>Full</contentaccesslevel>
+            <contentstatus>Archived</contentstatus>
+            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+
+
             <contenttopic>Protection;Protection|Disease;Protection|Disease|PSA</contenttopic>
+            <contenttype>Events;Events|Online</contenttype>
+            <cultivar>Gold3</cultivar>
+            <location>Auckland</location>
+            <growingmethod>Organic</growingmethod>
+            <growthstage>Harvest</growthstage>
+            <contentlanguage>English</contentlanguage>
         </coveo:metadata>
     </url>
 
 
+    <!-- Page7 -->
+    <url>
+        <loc>
+            https://www.zespri.com/en-US/blogdetail/tenderize-and-marinate-meat-with-green-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+
+
+            <contenttitle>Page 7 Title</contenttitle>
+            <contentdescription>Page 7 Description Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text</contentdescription>
+            <contentaccesslevel>Full</contentaccesslevel>
+            <contentstatus>Archived</contentstatus>
+            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+
+
+            <contenttopic>Growing;Growing|Budbreak;Protection;Protection|Disease</contenttopic>
+            <contenttype>Events;Events|Online</contenttype>
+            <cultivar>Gold3</cultivar>
+            <location>Auckland</location>
+            <growingmethod>Organic</growingmethod>
+            <growthstage>After Harvest</growthstage>
+            <contentlanguage>English</contentlanguage>
+        </coveo:metadata>
+    </url>
 </urlset> 
