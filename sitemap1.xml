@@ -42,6 +42,7 @@
 
             <contenttopic>Growing</contenttopic>
             <contenttype>News</contenttype>
+            <canopycontenttype>News</canopycontenttype>
             <cultivar>Red19</cultivar>
             <location>Northland</location>
             <growingmethod>Conventional</growingmethod>
@@ -69,6 +70,7 @@
             <contenttopic>Growing;Growing|Budbreak;Growing|Budbreak </contenttopic>
             <contentaccesslevel></contentaccesslevel>
             <contenttype>News;News|Growing</contenttype>
+            <canopycontenttype>News;News|Growing</canopycontenttype>
             <cultivar>Red19</cultivar>
             <location>Waikato</location>
             <growingmethod>Conventional</growingmethod>
@@ -97,6 +99,7 @@
 
             <contenttopic>Growing;Growing|Budbreak;Growing|Budbreak|Predicting</contenttopic>
             <contenttype>News;News|Zespri</contenttype>
+            <canopycontenttype>News;News|Zespri</canopycontenttype>
             <cultivar>Gold3</cultivar>
             <location>Auckland</location>
             <growingmethod>Conventional</growingmethod>
@@ -124,6 +127,7 @@
 
             <contenttopic>Protection</contenttopic>
             <contenttype>Events;Events|In Person</contenttype>
+            <canopycontenttype>Events;Events|In Person</canopycontenttype>
             <cultivar>Hayward</cultivar>
             <location>Auckland</location>
             <growingmethod>Organic</growingmethod>
@@ -152,6 +156,7 @@
 
             <contenttopic>Protection;Protection|Disease</contenttopic>
             <contenttype>Events;Events|Online</contenttype>
+            <canopycontenttype>Events;Events|Online</canopycontenttype>
             <cultivar>Hayward</cultivar>
             <location>Auckland</location>
             <growingmethod>Organic</growingmethod>
@@ -180,6 +185,7 @@
 
             <contenttopic>Protection;Protection|Disease;Protection|Disease|PSA</contenttopic>
             <contenttype>Events;Events|Online</contenttype>
+            <canopycontenttype>Events;Events|Online</canopycontenttype>
             <cultivar>Gold3</cultivar>
             <location>Auckland</location>
             <growingmethod>Organic</growingmethod>
@@ -210,6 +216,7 @@
 
             <contenttopic>Growing;Growing|Budbreak;Protection;Protection|Disease</contenttopic>
             <contenttype>Events;Events|Online</contenttype>
+            <canopycontenttype>Events;Events|Online</canopycontenttype>
             <cultivar>Gold3</cultivar>
             <location>Auckland</location>
             <growingmethod>Organic</growingmethod>
