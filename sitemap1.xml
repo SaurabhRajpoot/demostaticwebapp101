@@ -31,7 +31,8 @@
         <changefreq>monthly</changefreq>
         <coveo:metadata>
             <canopycontenttitle>Page 1 Title</canopycontenttitle>
-            <canopycontentdescription>Page 1 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontentdescription>Page 1 Description Lorem Ipsum is simply dummy text of the
+                printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the industry's standard dummy text</canopycontentdescription>
@@ -57,7 +58,8 @@
         <changefreq>monthly</changefreq>
         <coveo:metadata>
             <canopycontenttitle>Page 2 Title</canopycontenttitle>
-            <canopycontentdescription>Page 2 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontentdescription>Page 2 Description Lorem Ipsum is simply dummy text of the
+                printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the industry's standard dummy text</canopycontentdescription>
@@ -85,7 +87,8 @@
         <coveo:metadata>
 
             <canopycontenttitle>Page 3 Title</canopycontenttitle>
-            <canopycontentdescription>Page 3 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontentdescription>Page 3 Description Lorem Ipsum is simply dummy text of the
+                printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the industry's standard dummy text</canopycontentdescription>
@@ -112,7 +115,8 @@
         <coveo:metadata>
 
             <canopycontenttitle>Page 4 Title</canopycontenttitle>
-            <canopycontentdescription>Page 4 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontentdescription>Page 4 Description Lorem Ipsum is simply dummy text of the
+                printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the industry's standard dummy text</canopycontentdescription>
@@ -140,7 +144,8 @@
 
 
             <canopycontenttitle>Page 5 Title</canopycontenttitle>
-            <canopycontentdescription>Page 5 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontentdescription>Page 5 Description Lorem Ipsum is simply dummy text of the
+                printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the industry's standard dummy text</canopycontentdescription>
@@ -168,7 +173,8 @@
 
 
             <canopycontenttitle>Page 6 Title</canopycontenttitle>
-            <canopycontentdescription>Page 6 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontentdescription>Page 6 Description Lorem Ipsum is simply dummy text of the
+                printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the industry's standard dummy text</canopycontentdescription>
@@ -198,7 +204,8 @@
 
 
             <canopycontenttitle>Page 7 Title</canopycontenttitle>
-            <canopycontentdescription>Page 7 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontentdescription>Page 7 Description Lorem Ipsum is simply dummy text of the
+                printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the industry's standard dummy text</canopycontentdescription>
@@ -216,4 +223,93 @@
             <canopycontentlanguage>English</canopycontentlanguage>
         </coveo:metadata>
     </url>
+
+
+    <!-- Doc1 -->
+    <url>
+        <loc>
+            https://www.zespri.com/content/dam/zespri/nz/publications/annual-reports/Zespri-Annual-Report-2022-2023.pdf</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+
+
+            <canopycontenttitle>Document 1 - Title - Zespri-Annual-Report-2022-2023</canopycontenttitle>
+            <canopycontentdescription>Document 1 - Description - Lorem Ipsum is simply dummy text of
+                the printing
+                and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text</canopycontentdescription>
+            <canopycontentaccesslevel>Full</canopycontentaccesslevel>
+            <canopycontentstatus>Live</canopycontentstatus>
+            <canopycontenttopic>Growing;Growing|Budbreak;Protection;Protection|Disease</canopycontenttopic>
+            <canopycontenttype>Events;Events|Online</canopycontenttype>
+            <canopycultivar>Gold3</canopycultivar>
+            <canopylocation>Auckland</canopylocation>
+            <canopygrowingmethod>Organic</canopygrowingmethod>
+            <canopygrowthstage>After Harvest</canopygrowthstage>
+            <canopycontentlanguage>English</canopycontentlanguage>
+            <canopycontentbasetype>Document</canopycontentbasetype>
+        </coveo:metadata>
+    </url>
+
+
+    <!-- Doc2 -->
+    <url>
+        <loc>
+            https://www.zespri.com/content/dam/zespri/nz/corporate-information/regulatory-affairs/sla-service-level-agreement/2023-SLA-Redacted.pdf</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+
+
+            <canopycontenttitle>Document 2 - Title - sla-service-level-agreement</canopycontenttitle>
+            <canopycontentdescription>Document 2 - Description - Lorem Ipsum is simply dummy text of
+                the printing
+                and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text</canopycontentdescription>
+            <canopycontentaccesslevel>Full</canopycontentaccesslevel>
+            <canopycontentstatus>Live</canopycontentstatus>
+            <canopycontenttopic>Growing;Growing|Budbreak;Protection;Protection|Disease</canopycontenttopic>
+            <canopycontenttype>Events;Events|Online</canopycontenttype>
+            <canopycultivar>Gold3</canopycultivar>
+            <canopylocation>Auckland</canopylocation>
+            <canopygrowingmethod>Organic</canopygrowingmethod>
+            <canopygrowthstage>After Harvest</canopygrowthstage>
+            <canopycontentlanguage>English</canopycontentlanguage>
+            <canopycontentbasetype>Document</canopycontentbasetype>
+        </coveo:metadata>
+    </url>
+
+
+    <!-- Doc3 -->
+    <url>
+        <loc>
+            https://www.zespri.com/content/dam/zespri/nz/system-policies/Sustainability-Policy-2023.pdf</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+
+
+            <canopycontenttitle>Document 3 - Title - Sustainability-Policy-2023</canopycontenttitle>
+            <canopycontentdescription>Document 3 - Description - Lorem Ipsum is simply dummy text of
+                the printing
+                and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text</canopycontentdescription>
+            <canopycontentaccesslevel>Basic</canopycontentaccesslevel>
+            <canopycontentstatus>Live</canopycontentstatus>
+            <canopycontenttopic>Growing;Growing|Budbreak;Protection;Protection|Disease</canopycontenttopic>
+            <canopycontenttype>Events;Events|Online</canopycontenttype>
+            <canopycultivar>Gold3</canopycultivar>
+            <canopylocation>Auckland</canopylocation>
+            <canopygrowingmethod>Organic</canopygrowingmethod>
+            <canopygrowthstage>After Harvest</canopygrowthstage>
+            <canopycontentlanguage>English</canopycontentlanguage>
+            <canopycontentbasetype>Document</canopycontentbasetype>
+        </coveo:metadata>
+    </url>
+
+
 </urlset> 
