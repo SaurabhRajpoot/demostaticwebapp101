@@ -30,24 +30,23 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <contenttitle>Page 1 Title</contenttitle>
-            <contentdescription>Page 1 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontenttitle>Page 1 Title</canopycontenttitle>
+            <canopycontentdescription>Page 1 Description Lorem Ipsum is simply dummy text of the printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                Ipsum has been the industry's standard dummy text</contentdescription>
-            <contentaccesslevel>Basic</contentaccesslevel>
-            <contentstatus>Live</contentstatus>
-            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+                Ipsum has been the industry's standard dummy text</canopycontentdescription>
+            <canopycontentaccesslevel>Basic</canopycontentaccesslevel>
+            <canopycontentstatus>Live</canopycontentstatus>
+            <canopycontentthumbnailimage>https://picsum.photos/350</canopycontentthumbnailimage>
 
 
-            <contenttopic>Growing</contenttopic>
-            <contenttype>News</contenttype>
+            <canopycontenttopic>Growing</canopycontenttopic>
             <canopycontenttype>News</canopycontenttype>
-            <cultivar>Red19</cultivar>
-            <location>Northland</location>
-            <growingmethod>Conventional</growingmethod>
-            <growthstage>Winter(Dormancy)</growthstage>
-            <contentlanguage>Punjabi</contentlanguage>
+            <canopycultivar>Red19</canopycultivar>
+            <canopylocation>Northland</canopylocation>
+            <canopygrowingmethod>Conventional</canopygrowingmethod>
+            <canopygrowthstage>Winter(Dormancy)</canopygrowthstage>
+            <canopycontentlanguage>Punjabi</canopycontentlanguage>
         </coveo:metadata>
     </url>
 
@@ -57,25 +56,23 @@
         <lastmod>2022-11-23</lastmod>
         <changefreq>monthly</changefreq>
         <coveo:metadata>
-            <contenttitle>Page 2 Title</contenttitle>
-            <contentdescription>Page 2 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontenttitle>Page 2 Title</canopycontenttitle>
+            <canopycontentdescription>Page 2 Description Lorem Ipsum is simply dummy text of the printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                Ipsum has been the industry's standard dummy text</contentdescription>
-            <contentaccesslevel>Basic</contentaccesslevel>
-            <contentstatus>Live</contentstatus>
-            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+                Ipsum has been the industry's standard dummy text</canopycontentdescription>
+            <canopycontentaccesslevel>Basic</canopycontentaccesslevel>
+            <canopycontentstatus>Live</canopycontentstatus>
+            <canopycontentthumbnailimage>https://picsum.photos/350</canopycontentthumbnailimage>
 
 
-            <contenttopic>Growing;Growing|Budbreak;Growing|Budbreak </contenttopic>
-            <contentaccesslevel></contentaccesslevel>
-            <contenttype>News;News|Growing</contenttype>
+            <canopycontenttopic>Growing;Growing|Budbreak;Growing|Budbreak </canopycontenttopic>
             <canopycontenttype>News;News|Growing</canopycontenttype>
-            <cultivar>Red19</cultivar>
-            <location>Waikato</location>
-            <growingmethod>Conventional</growingmethod>
-            <growthstage>Budbreak To Flowering</growthstage>
-            <contentlanguage>Punjabi</contentlanguage>
+            <canopycultivar>Red19</canopycultivar>
+            <canopylocation>Waikato</canopylocation>
+            <canopygrowingmethod>Conventional</canopygrowingmethod>
+            <canopygrowthstage>Budbreak To Flowering</canopygrowthstage>
+            <canopycontentlanguage>Punjabi</canopycontentlanguage>
         </coveo:metadata>
     </url>
 
@@ -87,24 +84,23 @@
         <changefreq>monthly</changefreq>
         <coveo:metadata>
 
-            <contenttitle>Page 3 Title</contenttitle>
-            <contentdescription>Page 3 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontenttitle>Page 3 Title</canopycontenttitle>
+            <canopycontentdescription>Page 3 Description Lorem Ipsum is simply dummy text of the printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                Ipsum has been the industry's standard dummy text</contentdescription>
-            <contentaccesslevel>Basic</contentaccesslevel>
-            <contentstatus>Live</contentstatus>
-            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+                Ipsum has been the industry's standard dummy text</canopycontentdescription>
+            <canopycontentaccesslevel>Basic</canopycontentaccesslevel>
+            <canopycontentstatus>Live</canopycontentstatus>
+            <canopycontentthumbnailimage>https://picsum.photos/350</canopycontentthumbnailimage>
 
 
-            <contenttopic>Growing;Growing|Budbreak;Growing|Budbreak|Predicting</contenttopic>
-            <contenttype>News;News|Zespri</contenttype>
+            <canopycontenttopic>Growing;Growing|Budbreak;Growing|Budbreak|Predicting</canopycontenttopic>
             <canopycontenttype>News;News|Zespri</canopycontenttype>
-            <cultivar>Gold3</cultivar>
-            <location>Auckland</location>
-            <growingmethod>Conventional</growingmethod>
-            <growthstage>Budbreak To Flowering</growthstage>
-            <contentlanguage>English</contentlanguage>
+            <canopycultivar>Gold3</canopycultivar>
+            <canopylocation>Auckland</canopylocation>
+            <canopygrowingmethod>Conventional</canopygrowingmethod>
+            <canopygrowthstage>Budbreak To Flowering</canopygrowthstage>
+            <canopycontentlanguage>English</canopycontentlanguage>
         </coveo:metadata>
     </url>
 
@@ -115,24 +111,23 @@
         <changefreq>monthly</changefreq>
         <coveo:metadata>
 
-            <contenttitle>Page 4 Title</contenttitle>
-            <contentdescription>Page 4 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontenttitle>Page 4 Title</canopycontenttitle>
+            <canopycontentdescription>Page 4 Description Lorem Ipsum is simply dummy text of the printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                Ipsum has been the industry's standard dummy text</contentdescription>
-            <contentaccesslevel>Full</contentaccesslevel>
-            <contentstatus>Archived</contentstatus>
-            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+                Ipsum has been the industry's standard dummy text</canopycontentdescription>
+            <canopycontentaccesslevel>Full</canopycontentaccesslevel>
+            <canopycontentstatus>Archived</canopycontentstatus>
+            <canopycontentthumbnailimage>https://picsum.photos/350</canopycontentthumbnailimage>
 
 
-            <contenttopic>Protection</contenttopic>
-            <contenttype>Events;Events|In Person</contenttype>
+            <canopycontenttopic>Protection</canopycontenttopic>
             <canopycontenttype>Events;Events|In Person</canopycontenttype>
-            <cultivar>Hayward</cultivar>
-            <location>Auckland</location>
-            <growingmethod>Organic</growingmethod>
-            <growthstage>Flowering To Harvest</growthstage>
-            <contentlanguage>English</contentlanguage>
+            <canopycultivar>Hayward</canopycultivar>
+            <canopylocation>Auckland</canopylocation>
+            <canopygrowingmethod>Organic</canopygrowingmethod>
+            <canopygrowthstage>Flowering To Harvest</canopygrowthstage>
+            <canopycontentlanguage>English</canopycontentlanguage>
         </coveo:metadata>
     </url>
 
@@ -144,24 +139,23 @@
         <coveo:metadata>
 
 
-            <contenttitle>Page 5 Title</contenttitle>
-            <contentdescription>Page 5 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontenttitle>Page 5 Title</canopycontenttitle>
+            <canopycontentdescription>Page 5 Description Lorem Ipsum is simply dummy text of the printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                Ipsum has been the industry's standard dummy text</contentdescription>
-            <contentaccesslevel>Full</contentaccesslevel>
-            <contentstatus>Archived</contentstatus>
-            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+                Ipsum has been the industry's standard dummy text</canopycontentdescription>
+            <canopycontentaccesslevel>Full</canopycontentaccesslevel>
+            <canopycontentstatus>Archived</canopycontentstatus>
+            <canopycontentthumbnailimage>https://picsum.photos/350</canopycontentthumbnailimage>
 
 
-            <contenttopic>Protection;Protection|Disease</contenttopic>
-            <contenttype>Events;Events|Online</contenttype>
+            <canopycontenttopic>Protection;Protection|Disease</canopycontenttopic>
             <canopycontenttype>Events;Events|Online</canopycontenttype>
-            <cultivar>Hayward</cultivar>
-            <location>Auckland</location>
-            <growingmethod>Organic</growingmethod>
-            <growthstage>Harvest</growthstage>
-            <contentlanguage>English</contentlanguage>
+            <canopycultivar>Hayward</canopycultivar>
+            <canopylocation>Auckland</canopylocation>
+            <canopygrowingmethod>Organic</canopygrowingmethod>
+            <canopygrowthstage>Harvest</canopygrowthstage>
+            <canopycontentlanguage>English</canopycontentlanguage>
         </coveo:metadata>
     </url>
 
@@ -173,24 +167,23 @@
         <coveo:metadata>
 
 
-            <contenttitle>Page 6 Title</contenttitle>
-            <contentdescription>Page 6 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontenttitle>Page 6 Title</canopycontenttitle>
+            <canopycontentdescription>Page 6 Description Lorem Ipsum is simply dummy text of the printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                Ipsum has been the industry's standard dummy text</contentdescription>
-            <contentaccesslevel>Full</contentaccesslevel>
-            <contentstatus>Archived</contentstatus>
-            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+                Ipsum has been the industry's standard dummy text</canopycontentdescription>
+            <canopycontentaccesslevel>Full</canopycontentaccesslevel>
+            <canopycontentstatus>Archived</canopycontentstatus>
+            <canopycontentthumbnailimage>https://picsum.photos/350</canopycontentthumbnailimage>
 
 
-            <contenttopic>Protection;Protection|Disease;Protection|Disease|PSA</contenttopic>
-            <contenttype>Events;Events|Online</contenttype>
+            <canopycontenttopic>Protection;Protection|Disease;Protection|Disease|PSA</canopycontenttopic>
             <canopycontenttype>Events;Events|Online</canopycontenttype>
-            <cultivar>Gold3</cultivar>
-            <location>Auckland</location>
-            <growingmethod>Organic</growingmethod>
-            <growthstage>Harvest</growthstage>
-            <contentlanguage>English</contentlanguage>
+            <canopycultivar>Gold3</canopycultivar>
+            <canopylocation>Auckland</canopylocation>
+            <canopygrowingmethod>Organic</canopygrowingmethod>
+            <canopygrowthstage>Harvest</canopygrowthstage>
+            <canopycontentlanguage>English</canopycontentlanguage>
         </coveo:metadata>
     </url>
 
@@ -204,24 +197,23 @@
         <coveo:metadata>
 
 
-            <contenttitle>Page 7 Title</contenttitle>
-            <contentdescription>Page 7 Description Lorem Ipsum is simply dummy text of the printing
+            <canopycontenttitle>Page 7 Title</canopycontenttitle>
+            <canopycontentdescription>Page 7 Description Lorem Ipsum is simply dummy text of the printing
                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                Ipsum has been the industry's standard dummy text</contentdescription>
-            <contentaccesslevel>Full</contentaccesslevel>
-            <contentstatus>Archived</contentstatus>
-            <contentthumbnailimage>https://picsum.photos/350</contentthumbnailimage>
+                Ipsum has been the industry's standard dummy text</canopycontentdescription>
+            <canopycontentaccesslevel>Full</canopycontentaccesslevel>
+            <canopycontentstatus>Archived</canopycontentstatus>
+            <canopycontentthumbnailimage>https://picsum.photos/350</canopycontentthumbnailimage>
 
 
-            <contenttopic>Growing;Growing|Budbreak;Protection;Protection|Disease</contenttopic>
-            <contenttype>Events;Events|Online</contenttype>
+            <canopycontenttopic>Growing;Growing|Budbreak;Protection;Protection|Disease</canopycontenttopic>
             <canopycontenttype>Events;Events|Online</canopycontenttype>
-            <cultivar>Gold3</cultivar>
-            <location>Auckland</location>
-            <growingmethod>Organic</growingmethod>
-            <growthstage>After Harvest</growthstage>
-            <contentlanguage>English</contentlanguage>
+            <canopycultivar>Gold3</canopycultivar>
+            <canopylocation>Auckland</canopylocation>
+            <canopygrowingmethod>Organic</canopygrowingmethod>
+            <canopygrowthstage>After Harvest</canopygrowthstage>
+            <canopycontentlanguage>English</canopycontentlanguage>
         </coveo:metadata>
     </url>
 </urlset> 
