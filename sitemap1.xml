@@ -48,6 +48,7 @@
             <canopygrowingmethod>Conventional</canopygrowingmethod>
             <canopygrowthstage>Winter(Dormancy)</canopygrowthstage>
             <canopycontentlanguage>Punjabi</canopycontentlanguage>
+            <canopycontentbasetype>News</canopycontentbasetype>
         </coveo:metadata>
     </url>
 
@@ -75,6 +76,7 @@
             <canopygrowingmethod>Conventional</canopygrowingmethod>
             <canopygrowthstage>Budbreak To Flowering</canopygrowthstage>
             <canopycontentlanguage>Punjabi</canopycontentlanguage>
+            <canopycontentbasetype>News</canopycontentbasetype>
         </coveo:metadata>
     </url>
 
@@ -104,6 +106,7 @@
             <canopygrowingmethod>Conventional</canopygrowingmethod>
             <canopygrowthstage>Budbreak To Flowering</canopygrowthstage>
             <canopycontentlanguage>English</canopycontentlanguage>
+            <canopycontentbasetype>News</canopycontentbasetype>
         </coveo:metadata>
     </url>
 
@@ -132,6 +135,7 @@
             <canopygrowingmethod>Organic</canopygrowingmethod>
             <canopygrowthstage>Flowering To Harvest</canopygrowthstage>
             <canopycontentlanguage>English</canopycontentlanguage>
+            <canopycontentbasetype>Events</canopycontentbasetype>
         </coveo:metadata>
     </url>
 
@@ -161,6 +165,7 @@
             <canopygrowingmethod>Organic</canopygrowingmethod>
             <canopygrowthstage>Harvest</canopygrowthstage>
             <canopycontentlanguage>English</canopycontentlanguage>
+            <canopycontentbasetype>Events</canopycontentbasetype>
         </coveo:metadata>
     </url>
 
@@ -190,6 +195,7 @@
             <canopygrowingmethod>Organic</canopygrowingmethod>
             <canopygrowthstage>Harvest</canopygrowthstage>
             <canopycontentlanguage>English</canopycontentlanguage>
+            <canopycontentbasetype>Events</canopycontentbasetype>
         </coveo:metadata>
     </url>
 
@@ -221,6 +227,7 @@
             <canopygrowingmethod>Organic</canopygrowingmethod>
             <canopygrowthstage>After Harvest</canopygrowthstage>
             <canopycontentlanguage>English</canopycontentlanguage>
+            <canopycontentbasetype>Events</canopycontentbasetype>
         </coveo:metadata>
     </url>
 
