@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      type="module"
+      src="https://static.cloud.coveo.com/atomic/v2/atomic.esm.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://static.cloud.coveo.com/atomic/v2/themes/coveo.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      (async () => {
+        await customElements.whenDefined("atomic-search-interface");
+        const searchInterface = document.querySelector("#search");
+
+        await searchInterface.initialize({
+          accessToken: "xxe7d573c1-3227-44df-8650-3e2a82188b57",
+          organizationId: "zespriinternationalltdnonproduction1octd4f0q",
+          organizationEndpoints: await searchInterface.getOrganizationEndpoints(
+            "zespriinternationalltdnonproduction1octd4f0q"
+          ),
+        });
+        searchInterface.executeFirstSearch();
+      })();
+    </script>
+  </head>
+  <body>
+    <atomic-search-interface
+      id="search"
+      search-hub="canopy-searchpage-POC"
+      pipeline="canopy-searchpage-POC"
+      fields-to-include='["canopypoccontentaccesslevel", "canopypoccontentdescription","canopypoccontenttitle","canopypoccontentbasetype"]'
+    >
+      <atomic-search-layout>
+        <!-- all Atomic components will go in here -->
+
+        <!--BEGIN:  Searchbox: Search Page -->
+        <atomic-layout-section section="search">
+          <atomic-search-box></atomic-search-box>
+        </atomic-layout-section>
+        <!--END:  Searchbox: Search Page -->
+
+        <!--BEGIN:  Facets -->
+        <atomic-layout-section section="facets">
+          <atomic-facet field="source" label="Source"></atomic-facet>
+        </atomic-layout-section>
+        <!--END:  Facets -->
+
+        <!--BEGIN:  Search Results Main Section -->
+        <atomic-layout-section section="main">
+          <atomic-layout-section section="status">
+            <atomic-did-you-mean></atomic-did-you-mean>
+            <atomic-breadbox></atomic-breadbox>
+            <atomic-query-summary></atomic-query-summary>
+            <atomic-refine-toggle></atomic-refine-toggle>
+            <atomic-sort-dropdown>
+              <atomic-sort-expression label="Relevance" expression="relevancy">
+              </atomic-sort-expression>
+              <atomic-sort-expression label="Date" expression="date descending">
+              </atomic-sort-expression>
+            </atomic-sort-dropdown>
+          </atomic-layout-section>
+
+          <atomic-layout-section section="results" display="normal">
+            <!--BEGIN:  atomic-result-list component-->
+
+            <atomic-result-list display="list">
+              <atomic-result-template must-match-sourcetype="Sitemap">
+                <template>
+                  <style>
+                    #canopybaseContentType::part(result-badge-element) {
+                      background-color: green;
+                      color: white;
+                    }
+                  </style>
+
+                  <!-- ** Add the code from the Visual Result Section here ** -->
+                  <atomic-result-section-visual image-size="small">
+                    <img
+                      loading="lazy"
+                      src="https://picsum.photos/350"
+                      class="thumbnail"
+                    />
+                  </atomic-result-section-visual>
+
+                  <!-- ** Add the code from the Badge Result Section here ** -->
+                  <atomic-result-section-badges>
+                    <atomic-field-condition
+                      if-defined="canopypoccontentbasetype"
+                    >
+                      <atomic-result-badge
+                        id="canopybaseContentType"
+                        icon="https://raw.githubusercontent.com/Rush/Font-Awesome-SVG-PNG/master/black/svg/language.svg"
+                      >
+                        <atomic-result-text
+                          field="canopypoccontentbasetype"
+                        ></atomic-result-text>
+                      </atomic-result-badge>
+                    </atomic-field-condition>
+                  </atomic-result-section-badges>
+                  <!-- ** Add the code from the Action Result Section here ** -->
+                  <atomic-result-section-actions>
+                    <div id="Addtofvrts">
+                      <button type="button">Add to favorites</button>
+                    </div>
+                    <atomic-quickview></atomic-quickview>
+                  </atomic-result-section-actions>
+
+                  <!-- ** Add the code for Content Title here ** -->
+                  <atomic-result-section-title>
+                    <atomic-result-link>
+                      <atomic-result-text field="canopypoccontenttitle">
+                      </atomic-result-text>
+                    </atomic-result-link>
+                  </atomic-result-section-title>
+
+                  <!-- ** Add the code from the Metadata Result Section here ** -->
+
+                  <atomic-result-section-title-metadata>
+                    <atomic-field-condition
+                      if-defined="canopypoccontentbasetype"
+                    >
+                      <atomic-result-text
+                        field="canopypoccontentbasetype"
+                      ></atomic-result-text>
+                    </atomic-field-condition>
+
+                    <atomic-field-condition if-defined="source">
+                      <atomic-result-text field="source"></atomic-result-text>
+                    </atomic-field-condition>
+                  </atomic-result-section-title-metadata>
+
+
+                      <!-- ** Add the code from the Emphasized Result Section here ** -->
+
+                      <atomic-result-section-emphasized>
+                        <atomic-field-condition
+                          if-defined="canopypoccontentbasetype"
+                        >
+                          <atomic-result-text
+                            field="canopypoccontentbasetype"
+                          ></atomic-result-text>
+                        </atomic-field-condition>
+    
+                        <atomic-field-condition if-defined="source">
+                          <atomic-result-text field="source"></atomic-result-text>
+                        </atomic-field-condition>
+                      </atomic-result-section-emphasized>
+
+                  <!-- ** Add the code for Content Description here ** -->
+                  <atomic-result-section-excerpt>
+                    <atomic-result-text
+                      field="canopypoccontentdescription"
+                    ></atomic-result-text>
+                  </atomic-result-section-excerpt>
+
+                  <!-- ** Add the code from the Bottom Metadata Result Section here ** -->
+
+                  <atomic-result-section-bottom-metadata>
+                    <atomic-field-condition if-defined="date">
+                      <span class="field-label">Date Published:</span>
+                      <atomic-result-date></atomic-result-date>
+                    </atomic-field-condition>
+
+                    <atomic-field-condition
+                      if-defined="canopypoccontentaccesslevel"
+                    >
+                      <span class="field-label">Content access level:</span>
+                      <atomic-result-text
+                        field="canopypoccontentaccesslevel"
+                      ></atomic-result-text>
+                    </atomic-field-condition>
+                  </atomic-result-section-bottom-metadata>
+                </template>
+              </atomic-result-template>
+            </atomic-result-list>
+
+            <atomic-query-error></atomic-query-error>
+            <atomic-no-results></atomic-no-results>
+
+            <!--END:  atomic-result-list component-->
+          </atomic-layout-section>
+
+          <!--BEGIN:  Pagination -->
+          <atomic-layout-section section="pagination">
+            <atomic-load-more-results></atomic-load-more-results>
+          </atomic-layout-section>
+          <!--END:  Pagination -->
+        </atomic-layout-section>
+        <!--END:  Search Results Main Section -->
+      </atomic-search-layout>
+    </atomic-search-interface>
+  </body>
+</html>

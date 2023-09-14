@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      type="module"
+      src="https://static.cloud.coveo.com/atomic/v2/atomic.esm.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://static.cloud.coveo.com/atomic/v2/themes/coveo.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      (async () => {
+        await customElements.whenDefined("atomic-search-interface");
+        const searchInterface = document.querySelector("#search");
+
+        await searchInterface.initialize({
+          accessToken: "xxe7d573c1-3227-44df-8650-3e2a82188b57",
+          organizationId: "zespriinternationalltdnonproduction1octd4f0q",
+          organizationEndpoints: await searchInterface.getOrganizationEndpoints(
+            "zespriinternationalltdnonproduction1octd4f0q"
+          ),
+        });
+        searchInterface.executeFirstSearch();
+      })();
+    </script>
+
+    <style>
+   
+
+      atomic-search-box{
+        --atomic-primary: #B6254F;
+
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <atomic-search-interface
+      id="search"
+      search-hub="canopy-searchpage-POC"
+      pipeline="canopy-searchpage-POC"
+      fields-to-include='["canopypoccontentaccesslevel", "canopypoccontentdescription","canopypoccontenttitle"]'
+    >
+      <atomic-search-layout>
+        <!-- all Atomic components will go in here -->
+
+        <!--BEGIN:  Searchbox: Search Page -->
+        <atomic-layout-section section="search">
+          <atomic-search-box></atomic-search-box>
+        </atomic-layout-section>
+        <!--END:  Searchbox: Search Page -->
+
+        <!--BEGIN:  Facets -->
+        <atomic-layout-section section="facets">
+          <atomic-facet field="source" label="Source"></atomic-facet>
+        </atomic-layout-section>
+        <!--END:  Facets -->
+
+        <!--BEGIN:  Search Results Main Section -->
+        <atomic-layout-section section="main">
+          <atomic-layout-section section="status">
+            <atomic-did-you-mean></atomic-did-you-mean>
+            <atomic-breadbox></atomic-breadbox>
+            <atomic-query-summary></atomic-query-summary>
+            <atomic-refine-toggle></atomic-refine-toggle>
+            <atomic-sort-dropdown>
+              <atomic-sort-expression label="Relevance" expression="relevancy">
+              </atomic-sort-expression>
+              <atomic-sort-expression label="Date" expression="date descending">
+              </atomic-sort-expression>
+            </atomic-sort-dropdown>
+          </atomic-layout-section>
+
+          <atomic-layout-section section="results">
+            <!--BEGIN:  atomic-result-list component-->
+
+            <atomic-result-list>
+              <atomic-result-template must-match-sourcetype="Sitemap">
+                <template>
+                  <atomic-result-section-visual image-size="small">
+                    <img
+                      loading="lazy"
+                      src="https://picsum.photos/350"
+                      class="thumbnail"
+                    />
+                  </atomic-result-section-visual>
+
+                  <atomic-result-section-title>
+                    <atomic-result-link>
+                      <atomic-result-text field="canopypoccontenttitle">
+                      </atomic-result-text>
+                    </atomic-result-link>
+                  </atomic-result-section-title>
+
+                  <atomic-result-section-excerpt>
+                    <atomic-result-text
+                      field="canopypoccontentdescription"
+                    ></atomic-result-text>
+                  </atomic-result-section-excerpt>
+
+                  <atomic-result-section-bottom-metadata>
+                    <atomic-result-fields-list>
+                      <atomic-field-condition
+                        class="field"
+                        if-defined="canopypoccontentaccesslevel"
+                      >
+                        <span class="field-label"
+                          ><atomic-text
+                            value="content access level"
+                          ></atomic-text
+                          >:</span
+                        >
+                        <atomic-result-text
+                          field="canopypoccontentaccesslevel"
+                        ></atomic-result-text>
+                      </atomic-field-condition>
+                    </atomic-result-fields-list>
+                  </atomic-result-section-bottom-metadata>
+                </template>
+              </atomic-result-template>
+            </atomic-result-list>
+
+            <atomic-query-error></atomic-query-error>
+            <atomic-no-results></atomic-no-results>
+
+            <!--END:  atomic-result-list component-->
+          </atomic-layout-section>
+
+          <!--BEGIN:  Pagination -->
+          <atomic-layout-section section="pagination">
+            <atomic-load-more-results></atomic-load-more-results>
+          </atomic-layout-section>
+          <!--END:  Pagination -->
+        </atomic-layout-section>
+        <!--END:  Search Results Main Section -->
+      </atomic-search-layout>
+    </atomic-search-interface>
+  </body>
+</html>
