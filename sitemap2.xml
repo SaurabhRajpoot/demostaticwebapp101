@@ -232,7 +232,7 @@
             <canopyeventmeetinglink />
             <canopyeventdatetime></canopyeventdatetime>
             <canopynewsauthor></canopynewsauthor>
-            <canopynewspublisheddate>21 Sep, 2023</canopynewspublisheddate>
+            <canopynewspublisheddate></canopynewspublisheddate>
             <canopydocumenttypeandsize>PDF, 52.2Mb</canopydocumenttypeandsize>
         </coveo:metadata>
     </url>
@@ -264,8 +264,8 @@
             <canopyeventmeetinglink />
             <canopyeventdatetime></canopyeventdatetime>
             <canopynewsauthor></canopynewsauthor>
-            <canopynewspublisheddate>21 Sep, 2023</canopynewspublisheddate>
-            <canopydocumenttypeandsize>PDF, 52.2Mb</canopydocumenttypeandsize>
+            <canopynewspublisheddate></canopynewspublisheddate>
+            <canopydocumenttypeandsize>PDF, 60.2Mb</canopydocumenttypeandsize>
         </coveo:metadata>
     </url>
 
