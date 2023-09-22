@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:coveo="https://www.coveo.com/en/company/about-us">
+    <!-- <script> let decodeRaw = function (raw) { let rawString = ''; if (raw &amp; raw.length) {
+    try {
+        let totalLen = 0; let aUint8 = raw.map(r => { let a = new Uint8Array(r.bytes); totalLen +=
+        a.length; return a; }); let c = new (aUint8[0].constructor)(totalLen); let len = 0;
+        aUint8.forEach(a => { c.set(a, len); len += a.length; }); rawString =
+        decodeURIComponent(String.fromCharCode.apply(null, c)); } catch (e) {
+        //console.error('decodeRaw Error: ', e); } } return (rawString || ''); }; const constMock =
+        navigator.sendBeacon; navigator.sendBeacon = function() { //console.log("Coveo Response
+        Checker: sendBeacon catched"); var url = arguments[0]; //console.log(arguments); var reader
+        = new FileReader(); // This fires after the blob has been read
+        reader.addEventListener('loadend', (e) => { console.log(e.target.result);
+        //console.log(decodeURIComponent(e.target.result)); try { if (e.target!=undefined) { if
+        (e.target.result!="") { var text = decodeURIComponent(e.target.result); //console.log(text);
+        if (text.indexOf("{")!=-1) { //Text is JSON, using the old format const regex = /^.*?=/gm;
+        text = text.replace(regex,''); var obj = JSON.parse(text); } else { //Text is xxx-form
+        encoded string //console.log(text); let params = new URLSearchParams(text); obj = {}; for
+        (const [key, value] of params) { // each 'entry' is a [key, value] tupple obj[key] = value;
+        } } //console.log(obj); window.postMessage({url:url, content:obj}); } } } catch(e) {
+        //console.log(arguments[0]); console.error('beacon Error: ', e); } }); // Start reading the
+        contents of blob //console.log(arguments[1]); try { reader.readAsText(arguments[1]); }
+        catch(e) {} //setTimeout( function() { let returnvalue = constMock.apply(this,arguments);
+        //}, 1500); //console.log('Beacon response: '+returnvalue); } //console.log('Coveo Request
+        Checker: Beacon catcher loaded'); </script> -->
+
+    <!-- Page 1 Type Page -->
+    <url>
+        <loc>https://www.zespri.com/en-US/share-a-sungold</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <canopytitle>Share a Zespri Sungold - Zespri US</canopytitle>
+            <canopydescription>Now Get $1 Coupon off a pack of Zespri Sungold Kiwifruit.</canopydescription>
+            <canopyaccesslevel>Basic</canopyaccesslevel>
+            <canopystatus>Live</canopystatus>
+            <canopythumbnailimage>
+                https://www.zespri.com/content/dam/zespri/us/popup/SunGoldScoop_reduced.jpg</canopythumbnailimage>
+            <canopycontenttopic />
+            <canopycontenttype />
+            <canopycultivar />
+            <canopylocation />
+            <canopygrowingmethod />
+            <canopygrowthstage />
+            <canopylanguage>English</canopylanguage>
+            <canopybasetype>Page</canopybasetype>
+            <canopyeventlocation />
+            <canopyeventmeetinglink />
+            <canopyeventstartdate />
+            <canopyeventenddate />
+            <canopyeventstarttime />
+            <canopyeventendtime />
+            <canopynewsauthor />
+        </coveo:metadata>
+    </url>
+
+    <!-- Page 2 : Type Page -->
+    <url>
+        <loc>https://www.zespri.com/en-US/blogdetail/green-vs-gold-kiwifruit</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <canopytitle>Difference between Green vs Gold kiwi fruit - Zespri US</canopytitle>
+            <canopydescription>Learn more about the difference between our green and golden
+                kiwifruit?</canopydescription>
+            <canopyaccesslevel>Full</canopyaccesslevel>
+            <canopystatus>Live</canopystatus>
+            <canopythumbnailimage>
+                https://www.zespri.com/content/dam/zespri/us/blog-detail/green-vs--gold-kiwifruit/green-vs-gold-masthead.jpeg</canopythumbnailimage>
+            <canopycontenttopic />
+            <canopycontenttype />
+            <canopycultivar />
+            <canopylocation />
+            <canopygrowingmethod />
+            <canopygrowthstage />
+            <canopylanguage>English</canopylanguage>
+            <canopybasetype>Page</canopybasetype>
+            <canopyeventlocation />
+            <canopyeventmeetinglink />
+            <canopyeventstartdate />
+            <canopyeventenddate />
+            <canopyeventstarttime />
+            <canopyeventendtime />
+            <canopynewspublisheddate></canopynewspublisheddate>
+            <canopynewsauthor />
+        </coveo:metadata>
+    </url>
+
+
+    <!-- Page 3 : Type Event -->
+    <url>
+        <loc>https://www.nzkgi.org.nz/event/forum-meeting-48/</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <canopytitle>FORUM MEETING- Oct 17</canopytitle>
+            <canopydescription></canopydescription>
+            <canopyaccesslevel>Basic</canopyaccesslevel>
+            <canopystatus>Live</canopystatus>
+            <canopythumbnailimage>
+                https://www.nzkgi.org.nz/wp-content/uploads/2018/12/NZKGI-logo_RGB-e1569966753604.png</canopythumbnailimage>
+            <canopycontenttopic />
+            <canopycontenttype />
+            <canopycultivar />
+            <canopylocation />
+            <canopygrowingmethod />
+            <canopygrowthstage />
+            <canopylanguage>English</canopylanguage>
+            <canopybasetype>Event</canopybasetype>
+            <canopyeventlocation>Zespri, 400 Maunganui Road,Mt Maunganui, 3116 New Zealand</canopyeventlocation>
+            <canopyeventmeetinglink />
+            <!-- <canopyeventstartdate />
+            <canopyeventenddate />
+            <canopyeventstarttime />
+            <canopyeventendtime /> -->
+            <canopyeventdatetime>17 Oct 2023, 8:30 AM to 4:30 PM</canopyeventdatetime>
+            <canopynewsauthor />
+        </coveo:metadata>
+    </url>
+
+
+    <!-- Page 4 : Type Event -->
+    <url>
+        <loc>https://www.nzkgi.org.nz/event/forum-meeting-49/</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <canopytitle>FORUM MEETING- Dec 06</canopytitle>
+            <canopydescription></canopydescription>
+            <canopyaccesslevel>Full</canopyaccesslevel>
+            <canopystatus>Live</canopystatus>
+            <canopythumbnailimage>
+                https://www.nzkgi.org.nz/wp-content/uploads/2018/12/NZKGI-logo_RGB-e1569966753604.png</canopythumbnailimage>
+            <canopycontenttopic />
+            <canopycontenttype />
+            <canopycultivar />
+            <canopylocation />
+            <canopygrowingmethod />
+            <canopygrowthstage />
+            <canopylanguage>English</canopylanguage>
+            <canopybasetype>Event</canopybasetype>
+            <canopyeventlocation>Zespri, 400 Maunganui Road,Mt Maunganui, 3116 New Zealand</canopyeventlocation>
+            <canopyeventmeetinglink>https://meet.google.com/qke-sccc-hea</canopyeventmeetinglink>
+            <canopyeventdatetime>06 Dec 2023, 8:30 AM to 4:30 PM</canopyeventdatetime>
+            <canopynewsauthor />
+        </coveo:metadata>
+    </url>
+
+
+    <!-- Page 5 : Type News : contains multiple attached pdfs-->
+    <url>
+        <loc>https://industry.zespri.com/news-updates-useful-info</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <canopytitle>News, Updated and Useful Info</canopytitle>
+            <canopydescription></canopydescription>
+            <canopyaccesslevel>Basic</canopyaccesslevel>
+            <canopystatus>Live</canopystatus>
+            <canopythumbnailimage>
+            </canopythumbnailimage>
+            <canopycontenttopic />
+            <canopycontenttype />
+            <canopycultivar />
+            <canopylocation />
+            <canopygrowingmethod />
+            <canopygrowthstage />
+            <canopylanguage>English</canopylanguage>
+            <canopybasetype>News</canopybasetype>
+            <canopyeventlocation />
+            <canopyeventmeetinglink />
+            <canopyeventdatetime></canopyeventdatetime>
+            <canopynewsauthor>Rakesh Bansal</canopynewsauthor>
+            <canopynewspublisheddate>22 Sep, 2023</canopynewspublisheddate>
+        </coveo:metadata>
+    </url>
+
+    <!-- Page 6 : Type News -->
+    <url>
+        <loc>https://zespriproducervote.zespri.com/news</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <canopytitle>News and Articles</canopytitle>
+            <canopydescription></canopydescription>
+            <canopyaccesslevel>Full</canopyaccesslevel>
+            <canopystatus>Live</canopystatus>
+            <canopythumbnailimage>
+            </canopythumbnailimage>
+            <canopycontenttopic />
+            <canopycontenttype />
+            <canopycultivar />
+            <canopylocation />
+            <canopygrowingmethod />
+            <canopygrowthstage />
+            <canopylanguage>English</canopylanguage>
+            <canopybasetype>News</canopybasetype>
+            <canopyeventlocation />
+            <canopyeventmeetinglink />
+            <canopyeventdatetime></canopyeventdatetime>
+            <canopynewsauthor></canopynewsauthor>
+            <canopynewspublisheddate>21 Sep, 2023</canopynewspublisheddate>
+        </coveo:metadata>
+    </url>
+
+
+    <!-- Page 7 : Type Documents -->
+    <url>
+        <loc>
+            https://industry.zespri.com/media/1435/registering-your-business-as-an-essential-service-with-mpi.pdf</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <canopytitle>Registering as an Essential Service Provider with MPI
+            </canopytitle>
+            <canopydescription></canopydescription>
+            <canopyaccesslevel>Basic</canopyaccesslevel>
+            <canopystatus>Live</canopystatus>
+            <canopythumbnailimage>
+                https://canopy-dev.zespri.com/content/dam/new-canopy/nz/en/documents/public/publications/kiwi-fruit-journal/KFJ-Aug-Sept23.pdf/jcr:content/renditions/cq5dam.thumbnail.319.319.png
+            </canopythumbnailimage>
+            <canopycontenttopic />
+            <canopycontenttype />
+            <canopycultivar />
+            <canopylocation />
+            <canopygrowingmethod />
+            <canopygrowthstage />
+            <canopylanguage>English</canopylanguage>
+            <canopybasetype>Document</canopybasetype>
+            <canopyeventlocation />
+            <canopyeventmeetinglink />
+            <canopyeventdatetime></canopyeventdatetime>
+            <canopynewsauthor></canopynewsauthor>
+            <canopynewspublisheddate>21 Sep, 2023</canopynewspublisheddate>
+            <canopydocumenttypeandsize>PDF, 52.2Mb</canopydocumenttypeandsize>
+        </coveo:metadata>
+    </url>
+
+
+    <!-- Page 8 : Type Documents -->
+    <url>
+        <loc>
+            https://www.zespri.com/content/dam/zespri/nz/corporate-information/regulatory-affairs/sla-service-level-agreement/2023-SLA-Redacted.pdf</loc>
+        <lastmod>2022-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <coveo:metadata>
+            <canopytitle>2023 GA2CK Zespri Vita Programme</canopytitle>
+            <canopydescription></canopydescription>
+            <canopyaccesslevel>Full</canopyaccesslevel>
+            <canopystatus>Live</canopystatus>
+            <canopythumbnailimage>
+                https://canopy-dev.zespri.com/content/dam/new-canopy/nz/en/documents/public/publications/kiwi-fruit-journal/KFJ-Aug-Sept23.pdf/jcr:content/renditions/cq5dam.thumbnail.319.319.png
+            </canopythumbnailimage>
+            <canopycontenttopic />
+            <canopycontenttype />
+            <canopycultivar />
+            <canopylocation />
+            <canopygrowingmethod />
+            <canopygrowthstage />
+            <canopylanguage>English</canopylanguage>
+            <canopybasetype>Document</canopybasetype>
+            <canopyeventlocation />
+            <canopyeventmeetinglink />
+            <canopyeventdatetime></canopyeventdatetime>
+            <canopynewsauthor></canopynewsauthor>
+            <canopynewspublisheddate>21 Sep, 2023</canopynewspublisheddate>
+            <canopydocumenttypeandsize>PDF, 52.2Mb</canopydocumenttypeandsize>
+        </coveo:metadata>
+    </url>
+
+
+</urlset> 
