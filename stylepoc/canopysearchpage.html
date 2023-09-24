@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      type="module"
+      src="https://static.cloud.coveo.com/atomic/v2/atomic.esm.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://static.cloud.coveo.com/atomic/v2/themes/coveo.css"
+    />
+    <script>
+      (async () => {
+        await customElements.whenDefined("atomic-search-interface");
+        const searchInterface = document.querySelector("#search");
+        await searchInterface.initialize({
+          accessToken: "xxe7d573c1-3227-44df-8650-3e2a82188b57",
+          organizationId: "zespriinternationalltdnonproduction1octd4f0q",
+          organizationEndpoints: await searchInterface.getOrganizationEndpoints(
+            "zespriinternationalltdnonproduction1octd4f0q"
+          ),
+        });
+        console.log("called from search base.js");
+        searchInterface.executeFirstSearch();
+      })();
+    </script>
+  </head>
+  <body>
+    <atomic-search-interface
+    id="search"
+    search-hub="canopy-searchpage-DEV"
+    pipeline="canopy-searchpage-DEV"
+    fields-to-include='["canopytitle", "canopydescription","canopythumbnailimage","canopybasetype","canopyeventlocation","canopyeventmeetinglink","canopyeventstartdate","canopyeventenddate","canopyeventstarttime","canopyeventendtime","canopynewsauthor"]'
+  >
+    <!--BEGIN:  Searchbox: Search Page -->
+    <div class="coveo-search-banner">
+      <div class="coveo-search-banner__blur">
+        <div class="coveo-search-banner__ctn">
+          <h1
+            class="coveo-search-banner__title coveo-search-banner__title--white coveo-search-banner__title--font-sequel mt-0 mb-4"
+          >
+            Search our library
+          </h1>
+          <atomic-layout-section section="search">
+            <atomic-search-box></atomic-search-box>
+          </atomic-layout-section>
+        </div>
+      </div>
+    </div>
+    <!--END:  Searchbox: Search Page -->
+
+    <atomic-search-layout>
+      <!-- all Atomic components will go in here -->
+
+      <!--BEGIN:  Facets -->
+      <atomic-layout-section section="facets">
+        <!-- <atomic-facet-manager> -->
+        <atomic-facet field="source" label="Source"></atomic-facet>
+        <!-- </atomic-facet-manager> -->
+      </atomic-layout-section>
+      <!--END:  Facets -->
+
+      <!--BEGIN:  Search Results Main Section -->
+      <atomic-layout-section section="main">
+        <atomic-layout-section section="status">
+          <atomic-did-you-mean></atomic-did-you-mean>
+          <atomic-breadbox></atomic-breadbox>
+          <atomic-query-summary></atomic-query-summary>
+          <atomic-refine-toggle></atomic-refine-toggle>
+          <atomic-sort-dropdown>
+            <atomic-sort-expression label="Relevance" expression="relevancy">
+            </atomic-sort-expression>
+            <atomic-sort-expression label="Date" expression="date descending">
+            </atomic-sort-expression>
+          </atomic-sort-dropdown>
+        </atomic-layout-section>
+
+        <atomic-layout-section section="results">
+          <!--BEGIN:  atomic-result-list component-->
+
+          <atomic-result-list>
+
+         <!--BEGIN:  Result template for Item Type: Pages-->
+            <atomic-result-template must-match-sourcetype="Sitemap">
+              <template>
+                <!--Begin: Template styles: One of the limitations of the Coveo Search and has to be incorporated on the template level-->
+                <style>
+                  :root {
+                    display: flex;
+                  }
+                  .color-green {
+                    color: #008436;
+                  }
+                  .color-grey {
+                    color: #666666;
+                  }
+                  .color-dark-grey {
+                    color: #333333;
+                  }
+                  .color-black {
+                    color: #000000;
+                  }
+                  .col-4 {
+                    width: 33.33%;
+                    display: inline-flex;
+                    flex-direction: column;
+                    position: relative;
+                    overflow: hidden;
+                  }
+                  .col-8 {
+                    width: 66.66%;
+                    display: inline-flex;
+                    flex-direction: column;
+                    position: relative;
+                    overflow: hidden;
+                  }
+                  .event-meta {
+                    display: flex;
+                    align-items: start;
+                  }
+                  .font-regular {
+                    font-weight: 400;
+                  }
+                  .font-bold {
+                    font-weight: 700;
+                  }
+                  .font-body {
+                    font-size: 16px;
+                    line-height: 20px;
+                    letter-spacing: 0;
+                  }
+                  .font-title {
+                    font-size: 22px;
+                    line-height: 26px;
+                    letter-spacing: 0;
+                  }
+                  a:hover .link-hover {
+                    color: #008436;
+                    text-decoration: underline;
+                  }
+                  .px-5 {
+                    padding-left: 24px;
+                    padding-right: 24px;
+                  }
+                  .py-5 {
+                    padding-top: 24px;
+                    padding-bottom: 24px;
+                  }
+                  .row {
+                    display: flex;
+                    width: 100%;
+                  }
+                  atomic-result-image .thumbnail {
+                    width: 100%;
+                    margin-bottom: 0;
+                    height: 100%;
+                    -o-object-fit: cover;
+                    object-fit: cover;
+                    -o-object-position: top;
+                    object-position: center;
+                    width: -webkit-fill-available;
+                    position: absolute;
+                    top: 0;
+                  }
+                  .material-icons {
+                    font-family: "Material Icons";
+                    font-size: 24px;
+                    line-height: 24px;
+                  }
+                  .ml-3 {
+                    margin-left: 8px;
+                  }
+                </style>
+                <!--End: Template styles-->
+
+                <a href="#" class="row">
+                  <div class="col-4">
+                    <atomic-result-section-visual image-size="small">
+                      <!-- <img
+                        loading="lazy"
+                        src="https://picsum.photos/350"
+                        class="thumbnail"
+                      /> -->
+                      <atomic-result-image field="canopythumbnailimage" class="thumbnail" fallback="https://picsum.photos/350"></atomic-result-image>
+                    </atomic-result-section-visual>
+                  </div>
+                  <div class="col-8 px-5 py-5">
+                    <atomic-result-section-title class="mb-3">
+                      <!--Meta - Content Type-->
+                      <div class="font-body font-bold color-green mt-5 mb-3">
+                        <atomic-result-text
+                          field="canopybasetype"
+                        ></atomic-result-text>
+                      </div>
+
+                      <!--Meta - Published Date-->
+                      <div class="font-body color-dark-grey mb-3">
+                        30 May, 2023
+                      </div>
+
+                      <!--Meta - File Info-->
+                      <div class="font-body color-grey mb-3">PDF, 52.2Mb</div>
+
+                      <!--Title-->
+                      <atomic-result-text
+                        field="canopypoccontenttitle"
+                        class="font-title font-bold color-black link-hover mb-3"
+                      >
+                      </atomic-result-text>
+                    </atomic-result-section-title>
+
+                    <!--Description-->
+                    <atomic-result-section-excerpt class="mt-0 mb-3">
+                      <atomic-result-text
+                        field="canopypoccontentdescription"
+                        class="font-body color-black"
+                      ></atomic-result-text>
+                    </atomic-result-section-excerpt>
+
+                    <!--Meta - Event Date and Time-->
+                    <div class="mb-2 event-meta">
+                      <span class="material-icons">watch_later</span>
+                      <span class="ml-3 font-body color-dark-grey"
+                        >30 May 2023, 10:00 AM to 11:30 AM</span
+                      >
+                    </div>
+
+                    <!--Meta - Event Location-->
+                    <div class="mb-2 event-meta">
+                      <span class="material-icons">place</span>
+                      <span class="ml-3 font-body color-dark-grey"
+                        >Auckland, New Zealand</span
+                      >
+                    </div>
+
+                    <!--Meta - Event Meeting Link-->
+                    <div class="mb-2 event-meta">
+                      <span class="material-icons">videocam</span>
+                      <span class="ml-3 font-body color-dark-grey"
+                        >Online link available</span
+                      >
+                    </div>
+                  </div>
+                </a>
+              </template>
+            </atomic-result-template>
+         <!--END:  Result template for Item Type: Pages-->
+
+
+         <!--BEGIN:  Result template for Item Type: Documents-->
+          <atomic-result-template must-match-sourcetype="Documents">
+            <template>
+              <!--Begin: Template styles: One of the limitations of the Coveo Search and has to be incorporated on the template level-->
+              <style>
+                :root {
+                  display: flex;
+                }
+                .color-green {
+                  color: #008436;
+                }
+                .color-grey {
+                  color: #666666;
+                }
+                .color-dark-grey {
+                  color: #333333;
+                }
+                .color-black {
+                  color: #000000;
+                }
+                .col-4 {
+                  width: 33.33%;
+                  display: inline-flex;
+                  flex-direction: column;
+                  position: relative;
+                  overflow: hidden;
+                }
+                .col-8 {
+                  width: 66.66%;
+                  display: inline-flex;
+                  flex-direction: column;
+                  position: relative;
+                  overflow: hidden;
+                }
+                .event-meta {
+                  display: flex;
+                  align-items: start;
+                }
+                .font-regular {
+                  font-weight: 400;
+                }
+                .font-bold {
+                  font-weight: 700;
+                }
+                .font-body {
+                  font-size: 16px;
+                  line-height: 20px;
+                  letter-spacing: 0;
+                }
+                .font-title {
+                  font-size: 22px;
+                  line-height: 26px;
+                  letter-spacing: 0;
+                }
+                a:hover .link-hover {
+                  color: #008436;
+                  text-decoration: underline;
+                }
+                .px-5 {
+                  padding-left: 24px;
+                  padding-right: 24px;
+                }
+                .py-5 {
+                  padding-top: 24px;
+                  padding-bottom: 24px;
+                }
+                .row {
+                  display: flex;
+                  width: 100%;
+                }
+                atomic-result-image .thumbnail {
+                  width: 100%;
+                  margin-bottom: 0;
+                  height: 100%;
+                  -o-object-fit: cover;
+                  object-fit: cover;
+                  -o-object-position: top;
+                  object-position: center;
+                  width: -webkit-fill-available;
+                  position: absolute;
+                  top: 0;
+                }
+                .material-icons {
+                  font-family: "Material Icons";
+                  font-size: 24px;
+                  line-height: 24px;
+                }
+                .ml-3 {
+                  margin-left: 8px;
+                }
+              </style>
+              <!--End: Template styles-->
+
+              <a href="#" class="row">
+                <div class="col-4">
+                  <atomic-result-section-visual image-size="small">
+                    <!-- <img
+                      loading="lazy"
+                      src="https://picsum.photos/350"
+                      class="thumbnail"
+                    /> -->
+                    <atomic-result-image field="canopythumbnailimage" class="thumbnail" fallback="https://picsum.photos/350"></atomic-result-image>
+                  </atomic-result-section-visual>
+                </div>
+                <div class="col-8 px-5 py-5">
+                  <atomic-result-section-title class="mb-3">
+                    <!--Meta - Content Type-->
+                    <div class="font-body font-bold color-green mt-5 mb-3">
+                      <atomic-result-text
+                        field="canopybasetype"
+                      ></atomic-result-text>
+                    </div>
+
+                    <!--Meta - Published Date-->
+                    <div class="font-body color-dark-grey mb-3">
+                      30 May, 2023
+                    </div>
+
+                    <!--Meta - File Info-->
+                    <div class="font-body color-grey mb-3">PDF, 52.2Mb</div>
+
+                    <!--Title-->
+                    <atomic-result-text
+                      field="canopypoccontenttitle"
+                      class="font-title font-bold color-black link-hover mb-3"
+                    >
+                    </atomic-result-text>
+                  </atomic-result-section-title>
+
+                  <!--Description-->
+                  <atomic-result-section-excerpt class="mt-0 mb-3">
+                    <atomic-result-text
+                      field="canopypoccontentdescription"
+                      class="font-body color-black"
+                    ></atomic-result-text>
+                  </atomic-result-section-excerpt>
+
+                  <!--Meta - Event Date and Time-->
+                  <div class="mb-2 event-meta">
+                    <span class="material-icons">watch_later</span>
+                    <span class="ml-3 font-body color-dark-grey"
+                      >30 May 2023, 10:00 AM to 11:30 AM</span
+                    >
+                  </div>
+
+                  <!--Meta - Event Location-->
+                  <div class="mb-2 event-meta">
+                    <span class="material-icons">place</span>
+                    <span class="ml-3 font-body color-dark-grey"
+                      >Auckland, New Zealand</span
+                    >
+                  </div>
+
+                  <!--Meta - Event Meeting Link-->
+                  <div class="mb-2 event-meta">
+                    <span class="material-icons">videocam</span>
+                    <span class="ml-3 font-body color-dark-grey"
+                      >Online link available</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </template>
+          </atomic-result-template>
+        <!--END:  Result template for Item Type: Documents-->
+
+
+        <!--BEGIN:  Result template for Item Type: News-->
+          <atomic-result-template must-match-sourcetype="Documents">
+            <template>
+              <!--Begin: Template styles: One of the limitations of the Coveo Search and has to be incorporated on the template level-->
+              <style>
+                :root {
+                  display: flex;
+                }
+                .color-green {
+                  color: #008436;
+                }
+                .color-grey {
+                  color: #666666;
+                }
+                .color-dark-grey {
+                  color: #333333;
+                }
+                .color-black {
+                  color: #000000;
+                }
+                .col-4 {
+                  width: 33.33%;
+                  display: inline-flex;
+                  flex-direction: column;
+                  position: relative;
+                  overflow: hidden;
+                }
+                .col-8 {
+                  width: 66.66%;
+                  display: inline-flex;
+                  flex-direction: column;
+                  position: relative;
+                  overflow: hidden;
+                }
+                .event-meta {
+                  display: flex;
+                  align-items: start;
+                }
+                .font-regular {
+                  font-weight: 400;
+                }
+                .font-bold {
+                  font-weight: 700;
+                }
+                .font-body {
+                  font-size: 16px;
+                  line-height: 20px;
+                  letter-spacing: 0;
+                }
+                .font-title {
+                  font-size: 22px;
+                  line-height: 26px;
+                  letter-spacing: 0;
+                }
+                a:hover .link-hover {
+                  color: #008436;
+                  text-decoration: underline;
+                }
+                .px-5 {
+                  padding-left: 24px;
+                  padding-right: 24px;
+                }
+                .py-5 {
+                  padding-top: 24px;
+                  padding-bottom: 24px;
+                }
+                .row {
+                  display: flex;
+                  width: 100%;
+                }
+                atomic-result-image .thumbnail {
+                  width: 100%;
+                  margin-bottom: 0;
+                  height: 100%;
+                  -o-object-fit: cover;
+                  object-fit: cover;
+                  -o-object-position: top;
+                  object-position: center;
+                  width: -webkit-fill-available;
+                  position: absolute;
+                  top: 0;
+                }
+                .material-icons {
+                  font-family: "Material Icons";
+                  font-size: 24px;
+                  line-height: 24px;
+                }
+                .ml-3 {
+                  margin-left: 8px;
+                }
+              </style>
+              <!--End: Template styles-->
+
+              <a href="#" class="row">
+                <div class="col-4">
+                  <atomic-result-section-visual image-size="small">
+                    <!-- <img
+                      loading="lazy"
+                      src="https://picsum.photos/350"
+                      class="thumbnail"
+                    /> -->
+                    <atomic-result-image field="canopythumbnailimage" class="thumbnail" fallback="https://picsum.photos/350"></atomic-result-image>
+                  </atomic-result-section-visual>
+                </div>
+                <div class="col-8 px-5 py-5">
+                  <atomic-result-section-title class="mb-3">
+                    <!--Meta - Content Type-->
+                    <div class="font-body font-bold color-green mt-5 mb-3">
+                      <atomic-result-text
+                        field="canopybasetype"
+                      ></atomic-result-text>
+                    </div>
+
+                    <!--Meta - Published Date-->
+                    <div class="font-body color-dark-grey mb-3">
+                      30 May, 2023
+                    </div>
+
+                    <!--Meta - File Info-->
+                    <div class="font-body color-grey mb-3">PDF, 52.2Mb</div>
+
+                    <!--Title-->
+                    <atomic-result-text
+                      field="canopypoccontenttitle"
+                      class="font-title font-bold color-black link-hover mb-3"
+                    >
+                    </atomic-result-text>
+                  </atomic-result-section-title>
+
+                  <!--Description-->
+                  <atomic-result-section-excerpt class="mt-0 mb-3">
+                    <atomic-result-text
+                      field="canopypoccontentdescription"
+                      class="font-body color-black"
+                    ></atomic-result-text>
+                  </atomic-result-section-excerpt>
+
+                  <!--Meta - Event Date and Time-->
+                  <div class="mb-2 event-meta">
+                    <span class="material-icons">watch_later</span>
+                    <span class="ml-3 font-body color-dark-grey"
+                      >30 May 2023, 10:00 AM to 11:30 AM</span
+                    >
+                  </div>
+
+                  <!--Meta - Event Location-->
+                  <div class="mb-2 event-meta">
+                    <span class="material-icons">place</span>
+                    <span class="ml-3 font-body color-dark-grey"
+                      >Auckland, New Zealand</span
+                    >
+                  </div>
+
+                  <!--Meta - Event Meeting Link-->
+                  <div class="mb-2 event-meta">
+                    <span class="material-icons">videocam</span>
+                    <span class="ml-3 font-body color-dark-grey"
+                      >Online link available</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </template>
+          </atomic-result-template>
+        <!--END:  Result template for Item Type: News-->
+
+
+
+         <!--BEGIN:  Result template for Item Type: Events-->
+          <atomic-result-template must-match-sourcetype="Documents">
+            <template>
+              <!--Begin: Template styles: One of the limitations of the Coveo Search and has to be incorporated on the template level-->
+              <style>
+                :root {
+                  display: flex;
+                }
+                .color-green {
+                  color: #008436;
+                }
+                .color-grey {
+                  color: #666666;
+                }
+                .color-dark-grey {
+                  color: #333333;
+                }
+                .color-black {
+                  color: #000000;
+                }
+                .col-4 {
+                  width: 33.33%;
+                  display: inline-flex;
+                  flex-direction: column;
+                  position: relative;
+                  overflow: hidden;
+                }
+                .col-8 {
+                  width: 66.66%;
+                  display: inline-flex;
+                  flex-direction: column;
+                  position: relative;
+                  overflow: hidden;
+                }
+                .event-meta {
+                  display: flex;
+                  align-items: start;
+                }
+                .font-regular {
+                  font-weight: 400;
+                }
+                .font-bold {
+                  font-weight: 700;
+                }
+                .font-body {
+                  font-size: 16px;
+                  line-height: 20px;
+                  letter-spacing: 0;
+                }
+                .font-title {
+                  font-size: 22px;
+                  line-height: 26px;
+                  letter-spacing: 0;
+                }
+                a:hover .link-hover {
+                  color: #008436;
+                  text-decoration: underline;
+                }
+                .px-5 {
+                  padding-left: 24px;
+                  padding-right: 24px;
+                }
+                .py-5 {
+                  padding-top: 24px;
+                  padding-bottom: 24px;
+                }
+                .row {
+                  display: flex;
+                  width: 100%;
+                }
+                atomic-result-image .thumbnail {
+                  width: 100%;
+                  margin-bottom: 0;
+                  height: 100%;
+                  -o-object-fit: cover;
+                  object-fit: cover;
+                  -o-object-position: top;
+                  object-position: center;
+                  width: -webkit-fill-available;
+                  position: absolute;
+                  top: 0;
+                }
+                .material-icons {
+                  font-family: "Material Icons";
+                  font-size: 24px;
+                  line-height: 24px;
+                }
+                .ml-3 {
+                  margin-left: 8px;
+                }
+              </style>
+              <!--End: Template styles-->
+
+              <a href="#" class="row">
+                <div class="col-4">
+                  <atomic-result-section-visual image-size="small">
+                    <!-- <img
+                      loading="lazy"
+                      src="https://picsum.photos/350"
+                      class="thumbnail"
+                    /> -->
+                    <atomic-result-image field="canopythumbnailimage" class="thumbnail" fallback="https://picsum.photos/350"></atomic-result-image>
+                  </atomic-result-section-visual>
+                </div>
+                <div class="col-8 px-5 py-5">
+                  <atomic-result-section-title class="mb-3">
+                    <!--Meta - Content Type-->
+                    <div class="font-body font-bold color-green mt-5 mb-3">
+                      <atomic-result-text
+                        field="canopybasetype"
+                      ></atomic-result-text>
+                    </div>
+
+                    <!--Meta - Published Date-->
+                    <div class="font-body color-dark-grey mb-3">
+                      30 May, 2023
+                    </div>
+
+                    <!--Meta - File Info-->
+                    <div class="font-body color-grey mb-3">PDF, 52.2Mb</div>
+
+                    <!--Title-->
+                    <atomic-result-text
+                      field="canopypoccontenttitle"
+                      class="font-title font-bold color-black link-hover mb-3"
+                    >
+                    </atomic-result-text>
+                  </atomic-result-section-title>
+
+                  <!--Description-->
+                  <atomic-result-section-excerpt class="mt-0 mb-3">
+                    <atomic-result-text
+                      field="canopypoccontentdescription"
+                      class="font-body color-black"
+                    ></atomic-result-text>
+                  </atomic-result-section-excerpt>
+
+                  <!--Meta - Event Date and Time-->
+                  <div class="mb-2 event-meta">
+                    <span class="material-icons">watch_later</span>
+                    <span class="ml-3 font-body color-dark-grey"
+                      >30 May 2023, 10:00 AM to 11:30 AM</span
+                    >
+                  </div>
+
+                  <!--Meta - Event Location-->
+                  <div class="mb-2 event-meta">
+                    <span class="material-icons">place</span>
+                    <span class="ml-3 font-body color-dark-grey"
+                      >Auckland, New Zealand</span
+                    >
+                  </div>
+
+                  <!--Meta - Event Meeting Link-->
+                  <div class="mb-2 event-meta">
+                    <span class="material-icons">videocam</span>
+                    <span class="ml-3 font-body color-dark-grey"
+                      >Online link available</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </template>
+          </atomic-result-template>
+        <!--END:  Result template for Item Type: Events-->
+
+
+
+          </atomic-result-list>
+
+          <atomic-query-error></atomic-query-error>
+          <atomic-no-results></atomic-no-results>
+
+          <!--END:  atomic-result-list component-->
+        </atomic-layout-section>
+
+        <!--BEGIN:  Pagination -->
+        <atomic-layout-section section="pagination">
+          <atomic-pager number-of-pages="10"></atomic-pager>
+        </atomic-layout-section>
+        <!--END:  Pagination -->
+      </atomic-layout-section>
+      <!--END:  Search Results Main Section -->
+    </atomic-search-layout>
+  </atomic-search-interface>
+  </body>
+</html>
