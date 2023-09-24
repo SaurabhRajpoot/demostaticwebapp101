@@ -51,6 +51,7 @@
             <canopyeventstarttime />
             <canopyeventendtime />
             <canopynewsauthor />
+            <canopyeventdatetime> - | - </canopyeventdatetime>
         </coveo:metadata>
     </url>
 
